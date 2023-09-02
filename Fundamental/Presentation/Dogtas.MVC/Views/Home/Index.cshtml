@@ -1,0 +1,1301 @@
+﻿
+
+@{
+    var currentCulture = ViewBag.CurrentCulture;
+}
+
+@model HomeViewModel
+
+<main class="main-body">
+        <script type="application/ld+json">
+            {
+            @*"@context": "https://schema.org",*@
+            @*"@type": "Corporation",*@
+              "name": "Doğtaş",
+              "alternateName": "Doğtaş Mobilya",
+              "url": "https://www.dogtas.narmedia.az/tr",
+              "logo": "https://www.dogtas.narmedia.az/Themes/DogtasUi/Materials/assets/images/logo/logo-colored.svg",
+              "telephone": "0850 800 34 87",
+              "sameAs": [
+                "https://www.instagram.com/dogtas/",
+                "https://twitter.com/dogtas",
+                "https://www.facebook.com/dogtas",
+                "https://www.youtube.com/user/DogtasKurumsal",
+                "https://tr.wikipedia.org/wiki/Doğtaş",
+                "https://www.linkedin.com/company/doğtaş/",
+                "https://www.dogtas.narmedia.az/tr"
+              ]
+            }
+        </script><script type="application/ld+json">
+                     {
+            @*"@context": "https://schema.org/",*@
+            @*"@type": "WebSite",*@
+                       "name": "Doğtaş",
+                       "url": "https://www.dogtas.narmedia.az/tr",
+                       "potentialAction": {
+            @*"@type": "SearchAction",*@
+                         "target": "https://www.dogtas.narmedia.az/search?q={search_term_string}",
+                         "query-input": "required name=search_term_string"
+                       }
+                     }
+        </script>
+        <section class="homepage-main-slider">
+            <div class="container">
+                <div class="block">
+                    <div class="homepage-slider">
+                        <div class="redirection-area">
+                            <div class="redirection-actions">
+                                <div class="redirection-dynamic-actions">
+
+                                @if (Model.MenuSliders != null)
+                                {
+                                        @foreach (var item in Model.MenuSliders)
+                                        {
+                                            <div class="dynamic-action-box">
+                                                <a asp-action="index" asp-controller="category" asp-route-id="@item.Id" class="dynmaic-action-icon-and-text-wrapper">
+                                                    <span class="action-icon-and-text-holder">
+                                                        <span class="action-icon">
+                                                            @Html.Raw(item.Icon)
+                                                        </span>
+                                                        <span class="action-text text-uppercase">@item.Name</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        }
+                                    }
+@*
+                                    <div class="dynamic-action-box">
+                                        <a href="genc-ve-cocuk-odasi-takimlari" class="dynmaic-action-icon-and-text-wrapper">
+                                            <span class="action-icon-and-text-holder">
+                                                <span class="action-icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 50 35" style="enable-background:new 0 0 50 35" xml:space="preserve">
+                                                    <style>
+                                                        .st0 {
+                                                            fill: none;
+                                                            stroke: #58595b;
+                                                            stroke-width: .5;
+                                                            stroke-linecap: round;
+                                                            stroke-linejoin: round;
+                                                            stroke-miterlimit: 10
+                                                        }
+
+                                                        .st1 {
+                                                            fill: #fff;
+                                                            stroke: #58595b;
+                                                            stroke-width: .5;
+                                                            stroke-linecap: round;
+                                                            stroke-linejoin: round;
+                                                            stroke-miterlimit: 10
+                                                        }
+
+                                                        .st2 {
+                                                            fill: none;
+                                                            stroke: #58595b;
+                                                            stroke-width: .5;
+                                                            stroke-linejoin: round;
+                                                            stroke-miterlimit: 10
+                                                        }</style>
+                                                    <polyline class="st0" points="12.17,17.58 12.17,33.03 13.85,33.03 13.85,26.89 " />
+                                                    <rect x="12.17" y="17.58" class="st0" width="9.45" height="4.66" />
+                                                    <rect x="12.17" y="22.24" class="st0" width="9.45" height="4.66" />
+                                                    <line class="st1" x1="15.61" y1="19.91" x2="18.41" y2="19.91" />
+                                                    <line class="st1" x1="15.61" y1="24.57" x2="18.41" y2="24.57" />
+                                                    <polyline class="st0" points="28.97,30.29 33.1,32.16 33.11,33.03 " />
+                                                    <polyline class="st0" points="28.94,30.29 24.81,32.16 24.81,33.03 " />
+                                                    <g>
+                                                    <path class="st0" d="M24.24,14.24h0.81v-2.28c0-1.98,1.6-3.58,3.58-3.58h0.81c1.98,0,3.58,1.6,3.58,3.58v2.28h0.62   c0.44,0,0.8-0.35,0.8-0.79V7.28c0-0.44-0.36-0.79-0.8-0.79h-9.41c-0.44,0-0.8,0.35-0.8,0.79v6.17   C23.44,13.89,23.8,14.24,24.24,14.24z" />
+                                                    <path class="st0" d="M39.09,15.56h-6.06v2.02h6.06c0.5,0,0.91-0.41,0.91-0.91v-0.21C40,15.97,39.59,15.56,39.09,15.56z" />
+                                                    <path class="st0" d="M25.05,15.56H11.31c-0.5,0-0.91,0.41-0.91,0.91v0.21c0,0.5,0.41,0.91,0.91,0.91h13.74V15.56z" />
+                                             </g>
+                                                    <rect x="36.72" y="17.58" class="st0" width="1.67" height="15.45" />
+                                                    <g>
+                                                    <path class="st2" d="M14.51,7.9c0-1.84-1.51-3.34-3.38-3.34c1.87,0,3.38-1.49,3.38-3.34c0,1.84,1.51,3.34,3.38,3.34   C16.02,4.56,14.51,6.05,14.51,7.9z" />
+                                                    <path class="st2" d="M18.43,12.31c0-1.22-1-2.2-2.23-2.2c1.23,0,2.23-0.99,2.23-2.2c0,1.22,1,2.2,2.23,2.2   C19.43,10.1,18.43,11.09,18.43,12.31z" />
+                                             </g>
+                                                    <path class="st0" d="M31.7,19.27c0.73,0,1.32-0.59,1.32-1.32v-5.99c0-1.98-1.6-3.58-3.58-3.58h-0.81c-1.98,0-3.58,1.6-3.58,3.58  v5.99c0,0.73,0.59,1.32,1.32,1.32h1.85v2.05h-0.71c-1.46,0-2.65,1.19-2.65,2.65v0.3h3.63v8.76c0,0.26,0.21,0.48,0.48,0.48  c0.26,0,0.48-0.21,0.48-0.48v-8.76h3.59v-0.3c0-1.46-1.19-2.65-2.65-2.65h-0.53v-2.05H31.7z" />
+                                          </svg>
+                                                </span>
+                                                <span class="action-text">GENÇ ODALARI</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="dynamic-action-box">
+                                        <a href="https://home.dogtas.narmedia.az" class="dynmaic-action-icon-and-text-wrapper">
+                                            <span class="action-icon-and-text-holder">
+                                                <span class="action-icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="30" viewBox="0 0 39 62">
+                                                        <g id="Group_4" data-name="Group 4" transform="translate(-810 -272)">
+                                                            <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="11.5" cy="14.5" rx="11.5" ry="14.5" transform="translate(818 272)" fill="#fff" />
+                                                            <path id="Union_5" data-name="Union 5" d="M-153-84.5c0-8.008,5.149-14.5,11.5-14.5S-130-92.508-130-84.5-135.148-70-141.5-70-153-76.492-153-84.5Zm5.719-8.389A13.5,13.5,0,0,0-150-84.5a13.5,13.5,0,0,0,2.719,8.389A7.456,7.456,0,0,0-141.5-73a7.455,7.455,0,0,0,5.781-3.111A13.5,13.5,0,0,0-133-84.5a13.5,13.5,0,0,0-2.719-8.389A7.455,7.455,0,0,0-141.5-96,7.456,7.456,0,0,0-147.281-92.889Zm2.22,15.449a1.5,1.5,0,0,1,0-2.121l7-7a1.5,1.5,0,0,1,2.121,0,1.5,1.5,0,0,1,0,2.122l-7,7A1.494,1.494,0,0,1-144-77,1.494,1.494,0,0,1-145.061-77.44Zm-2-5a1.5,1.5,0,0,1,0-2.121l7-7a1.5,1.5,0,0,1,2.121,0,1.5,1.5,0,0,1,0,2.121l-7,7A1.5,1.5,0,0,1-146-82,1.5,1.5,0,0,1-147.061-82.439Z" transform="translate(971 371)" fill="#5a5865" />
+                                                            <path id="Union_6" data-name="Union 6" d="M-120.5-69a1.5,1.5,0,0,1-1.5-1.5,1.5,1.5,0,0,1,.086-.5h-21.171a1.5,1.5,0,0,1,.085.5,1.5,1.5,0,0,1-1.5,1.5h-2a1.5,1.5,0,0,1-1.5-1.5,1.5,1.5,0,0,1,.085-.5H-148a5,5,0,0,1-5-5V-94a5,5,0,0,1,5-5h29a5,5,0,0,1,5,5v18a5,5,0,0,1-3.242,4.682A1.494,1.494,0,0,1-117-70.5a1.5,1.5,0,0,1-1.5,1.5ZM-150-76a2,2,0,0,0,2,2h29a2,2,0,0,0,2-2v-7h-33Zm33-10v-8a2,2,0,0,0-2-2h-29a2,2,0,0,0-2,2v8Zm-19,8a1,1,0,0,1-1-1,1,1,0,0,1,1-1h5a1,1,0,0,1,1,1,1,1,0,0,1-1,1Zm0-11.5a1,1,0,0,1-1-1,1,1,0,0,1,1-1h5a1,1,0,0,1,1,1,1,1,0,0,1-1,1Z" transform="translate(963 403)" fill="#5a5865" />
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="action-text">DOĞTAŞ HOME</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="dynamic-action-box">
+                                        <a href="dogtas-garden" class="dynmaic-action-icon-and-text-wrapper">
+                                            <span class="action-icon-and-text-holder">
+                                                <span class="action-icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 110 110" style="enable-background:new 0 0 110 110" xml:space="preserve">
+                                                    <g>
+                                                    <path d="M82.72,49.55l-1.96-5.86l-2.01,5.86H82.72z M84.02,53.21h-6.59l-1.28,3.2h-5.07L78.16,38h5.22l6.93,18.42h-5.1L84.02,53.21   z M1.51,56.42V38H8.3c2.6,0,4.81,0.89,6.62,2.67c1.82,1.77,2.73,3.95,2.73,6.54c0,2.59-0.91,4.77-2.73,6.55   c-1.82,1.77-4.02,2.65-6.62,2.65H1.51z M6.31,42.06v10.31h1.08c1.62,0,2.91-0.45,3.86-1.36c0.95-0.91,1.43-2.18,1.43-3.81   c0-1.6-0.47-2.86-1.43-3.77c-0.94-0.92-2.21-1.37-3.82-1.37H6.31z M68.62,42.06v14.35h-4.79V42.06h-3.95V38h12.7v4.06H68.62z    M29.05,42.06c-1.37,0-2.57,0.46-3.6,1.38c-1.06,0.96-1.59,2.11-1.59,3.45c0,1.5,0.49,2.79,1.46,3.85c0.99,1.07,2.23,1.6,3.73,1.6   c1.5,0,2.75-0.54,3.75-1.62c0.96-1.05,1.45-2.33,1.45-3.84c0-1.34-0.53-2.5-1.59-3.45C31.62,42.52,30.42,42.06,29.05,42.06    M29.05,37.46c2.77,0,5.14,0.87,7.1,2.62c2.05,1.81,3.07,4.07,3.07,6.78c0,2.97-0.95,5.39-2.85,7.27   c-1.89,1.88-4.33,2.82-7.32,2.82s-5.43-0.94-7.34-2.82c-1.89-1.88-2.84-4.3-2.84-7.27c0-2.71,1.02-4.98,3.07-6.78   C23.92,38.33,26.28,37.46,29.05,37.46 M106.98,42.1c-0.57,0-1.05-0.19-1.44-0.58c-0.39-0.39-0.59-0.87-0.59-1.43   c0-0.57,0.2-1.05,0.59-1.44c0.39-0.39,0.87-0.59,1.44-0.59c0.57,0,1.05,0.2,1.44,0.59c0.39,0.39,0.59,0.87,0.59,1.43   c0,0.56-0.2,1.04-0.59,1.43C108.02,41.9,107.54,42.1,106.98,42.1 M106.98,41.62c0.45,0,0.81-0.14,1.1-0.43   c0.29-0.29,0.44-0.66,0.44-1.1c0-0.44-0.15-0.81-0.44-1.1c-0.29-0.29-0.66-0.44-1.1-0.44c-0.45,0-0.82,0.15-1.11,0.44   c-0.29,0.29-0.43,0.66-0.43,1.1c0,0.44,0.15,0.81,0.44,1.1C106.16,41.47,106.53,41.62,106.98,41.62 M47.29,33.25   c0.52,1.02,1.58,1.71,2.81,1.71c1.23,0,2.29-0.7,2.81-1.71h1.58c-0.6,1.84-2.34,3.17-4.39,3.17c-2.05,0-3.79-1.33-4.39-3.17H47.29z    M50.25,46.13h9.5c-0.04,1.6-0.15,2.85-0.35,3.76c-0.27,1.27-0.78,2.43-1.54,3.47c-1.73,2.39-4.26,3.58-7.59,3.58   c-2.9,0-5.26-0.88-7.08-2.65c-1.82-1.78-2.73-4.11-2.73-7c0-2.97,0.91-5.35,2.74-7.14c1.83-1.79,4.24-2.69,7.23-2.69   c3.95,0,6.72,1.7,8.31,5.11l-4.54,1.89c-0.73-1.94-2.06-2.91-3.99-2.91c-1.48,0-2.66,0.61-3.57,1.84c-0.8,1.1-1.21,2.42-1.21,3.94   c0,1.54,0.41,2.85,1.24,3.93c0.9,1.2,2.1,1.8,3.6,1.8c1.07,0,1.96-0.27,2.65-0.82c0.71-0.55,1.11-1.33,1.21-2.36h-3.9V46.13z    M100.51,61.16c-0.52-1.01-1.57-1.7-2.79-1.7c-1.22,0-2.27,0.69-2.79,1.7h-1.57c0.6-1.83,2.32-3.15,4.36-3.15   c2.04,0,3.76,1.32,4.36,3.15H100.51z M103.8,39.08l-1.9,3.69c-0.98-0.81-2.04-1.22-3.18-1.22c-0.49,0-0.94,0.13-1.35,0.4   c-0.46,0.29-0.69,0.67-0.69,1.13c0,0.75,0.71,1.33,2.12,1.75l1.23,0.36c3.03,0.91,4.54,2.58,4.54,5c0,2.16-0.65,3.82-1.96,4.98   c-1.24,1.12-2.96,1.67-5.16,1.67c-2.32,0-4.48-0.7-6.48-2.09l2.05-3.84c1.45,1.26,2.87,1.89,4.24,1.89c0.63,0,1.17-0.15,1.59-0.44   c0.49-0.34,0.73-0.81,0.73-1.4c0-0.57-0.36-1.05-1.08-1.44c-0.37-0.19-0.97-0.41-1.83-0.66c-1.76-0.5-2.96-1.02-3.61-1.58   c-0.91-0.78-1.37-1.97-1.37-3.58c0-1.84,0.59-3.33,1.77-4.45c1.18-1.13,2.71-1.69,4.57-1.69C100.1,37.57,102.02,38.07,103.8,39.08    M107.44,40.22l0.51,0.89h-0.51l-0.47-0.89h-0.33v0.89h-0.47v-2.09h1.02c0.27,0,0.47,0.04,0.59,0.11c0.15,0.1,0.23,0.27,0.23,0.53   C108.01,40.01,107.82,40.19,107.44,40.22 M106.64,39.91h0.56c0.13,0,0.22-0.02,0.28-0.06c0.06-0.05,0.09-0.13,0.09-0.25   c0-0.1-0.05-0.16-0.16-0.19c-0.06-0.02-0.17-0.03-0.32-0.03h-0.45V39.91z" />
+                                                    <path d="M24.35,72.11h3.8v0.07c-0.02,2.98-1.61,4.63-4.48,4.63c-3.12,0-5.06-2.1-5.06-5.48v-0.13c0-1.55,0.5-2.95,1.41-3.95   c0.91-0.99,2.19-1.54,3.6-1.54c2.19,0,3.65,1.02,4.09,2.86l0.01,0.03h0.69l-0.01-0.05c-0.43-2.15-2.22-3.43-4.8-3.43   c-3.25,0-5.7,2.62-5.7,6.09v0.13c0,1.76,0.53,3.27,1.54,4.36c1.03,1.12,2.5,1.71,4.23,1.71c3.23,0,5.15-1.99,5.15-5.32v-0.6h-4.47   V72.11z" />
+                                                    <path d="M37.2,65.24h-0.86L31.88,77.3h0.66l1.41-3.82h5.62l1.42,3.82h0.7l-4.48-12.03L37.2,65.24z M39.35,72.89h-5.18l2.58-7   L39.35,72.89z" />
+                                                    <path d="M53.17,68.48v-0.07c0-2.08-1.4-3.18-4.05-3.18h-3.11V77.3h0.67v-5.61h2.58l3.84,5.59l0.01,0.02h0.79l-3.89-5.67   C52.08,71.39,53.17,70.3,53.17,68.48 M52.48,68.41v0.07c0,1.76-1.09,2.62-3.34,2.62h-2.45v-5.27h2.45   C51.38,65.83,52.48,66.67,52.48,68.41" />
+                                                    <path d="M61.39,65.24h-3.11V77.3h3.07c1.91,0,3.47-0.61,4.51-1.75c0.96-1.05,1.46-2.52,1.46-4.25v-0.13c0-1.71-0.52-3.17-1.51-4.22   C64.77,65.83,63.24,65.24,61.39,65.24 M58.97,65.83h2.33c3.33,0,5.31,1.99,5.31,5.33v0.13c0,3.38-1.98,5.4-5.3,5.4h-2.35V65.83z" />
+                                                    <polygon points="72.7,71.39 77.74,71.39 77.74,70.78 72.7,70.78 72.7,65.83 78.9,65.83 78.9,65.24 72.01,65.24 72.01,77.3    79.2,77.3 79.2,76.69 72.7,76.69  " />
+                                                    <polygon points="91.94,65.24 91.94,76.3 84.77,65.26 84.76,65.24 83.83,65.24 83.83,77.3 84.51,77.3 84.51,66.05 91.8,77.28    91.81,77.3 92.61,77.3 92.61,65.24  " />
+                                             </g>
+                                          </svg>
+                                                </span>
+                                                <span class="action-text">Doğtaş Garden</span>
+                                            </span>
+                                        </a>
+                                    </div>*@
+                                </div>
+                                <div class="redirection-static-actions">
+                                    <a class="static-action-box" href="https://www.dogtas.narmedia.az/magazalar">
+                                        <span class="dynmaic-action-icon-and-text-wrapper">
+                                            <span class="action-icon-and-text-holder">
+                                                <svg class="action-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" xml:space="preserve">
+                                                <path d="M100,0C56.7,0.1,21.7,34.6,21.6,77.2c0,16.8,5.6,33,16,46.3l57,73.6c1.3,1.8,3.5,2.8,5.7,2.8s4.4-1,5.7-2.8l57-73.6c10.1-13.4,15.5-29.7,15.4-46.3C178.3,34.6,143.3,0.1,100,0z M151,115.2l-51,66.3l-51-66.3C40.5,104.3,35.9,91,35.9,77.2C35.9,42.3,64.6,14,100,14s64.1,28.3,64.1,63.2C164.1,91,159.5,104.3,151,115.2zM100,42.1c-19.7,0-35.6,15.7-35.6,35.1s16,35.1,35.6,35.1s35.6-15.7,35.6-35.1S119.7,42.1,100,42.1z M100,98.3c-11.8,0-21.4-9.4-21.4-21.1s9.6-21.1,21.4-21.1s21.4,9.4,21.4,21.1S111.8,98.3,100,98.3z" />
+                                       </svg>
+                                                <span class="action-text">MAĞAZALAR</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-items" data-slides-time="15000">
+                            @*<a href="/25-31-temmuza-ozel-ek-indirimler" class="slide-item slide-background-image" style="background-image:url(&#x27;images/0043823_1920-1080%20%282%29.jpeg&#x27;)">
+                                <div class="slide-item-wrapper"></div>
+                            </a>
+                            <div class="slide-item slide-background-image" style="background-image:url(&#x27;images/0043815_1920-1080%20%281%29.jpeg&#x27;)"></div>
+                            <a href="https://www.dogtas.narmedia.az/dogtas-garden" class="slide-item slide-background-image" style="background-image:url(&#x27;images/0043826_1920-1080.jpeg&#x27;)">
+                                <div class="slide-item-wrapper"></div>
+                            </a>*@
+                            
+                            @foreach(var item in Model.Sliders){
+                                <a href="https://home.dogtas.narmedia.az" class="slide-item slide-background-image" style="background-image:url('@Url.Content(item.Image)')">
+                                    <div class="slide-item-wrapper"></div>
+                                </a>
+                            }
+@*
+                            <div class="slide-item slide-background-image" style="background-image:url(&#x27;images/0026826_slider.jpeg&#x27;)"></div>
+                            <div class="slide-item slide-background-image" style="background-image:url(&#x27;images/0026856_easy-clean-slider.jpeg&#x27;)"></div>
+                            <a href="https://dogtas.narmedia.az/online-satis-danismani" class="slide-item slide-background-image" style="background-image:url(&#x27;images/0018709_online-sat%C3%84%C2%B1s-slider-revize.jpeg&#x27;)">
+                                <div class="slide-item-wrapper">
+                                    <div class="title">Online Uzman ile</div>
+                                    <div class="subtitle">Görüşme Başlatın</div>
+                                </div>
+                            </a>
+                            <a href="https://www.dogtas.narmedia.az/magazalar" target _blank"" class="slide-item slide-background-image" style="background-image:url(&#x27;images/0015880_whatsapp-slider.jpeg&#x27;)">
+                                <div class="slide-item-wrapper">
+                                    <div class="title">En Yakın</div>
+                                    <div class="subtitle">Mağazaları Listeleyin</div>
+                                </div>
+                            </a>*@
+                        </div>
+                        <div class="slide-controllers valign-center-wrapper">
+                            <div class="flex-item">
+                                <div class="slide-track-navigation"><i class="navigation left-navigation chevron left icon"></i> <span class="navigation current-item"></span> <i class="navigation right-navigation chevron right icon"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1 class="homepage-title-h1">Doğtaş Ürünlerini keşfedin</h1>
+        <section class="homepage-related-campaigns bg-noise bg-gradient leftToRight-gradient">
+            <div class="container shadow-container white-bg-container small-container">
+                <div class="block">
+                    <div class="slide-items">
+                        <div class="slide-item" data-campaign-id="116">
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="main-title"><span class="title-row"> <span class="surtitle">Cebinizi rahatlatan fırsatlar Doğtaş’ta!</span> </span> <span class="title-row"></span></div>
+                                        </div>
+                                        <div class="description-area">
+                                            <p>3 ay ertelemeli 18 ay taksit imkanı Doğtaş’ta. Detaylar Doğtaş mağazalarında sizleri bekliyor</p>
+                                        </div>
+                                        <div class="action-area"><a href="/cebinizi-rahatlatan-firsatlar-dogtasta" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Kampanyayı İncele</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-area"><a class="image-holder" href="/cebinizi-rahatlatan-firsatlar-dogtasta"> <img loading="lazy" class="image" src="images/0043718_864-700.png"> </a></div>
+                        </div>
+                        <div class="slide-item" data-campaign-id="3">
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="main-title"><span class="title-row"> <span class="surtitle">FIRSATI KAÇIRMAYIN</span> </span> <span class="title-row">Kartsız kefilsiz alışveriş imkanı Doğtaş’ta</span></div>
+                                        </div>
+                                        <div class="description-area">
+                                            <p>Doğtaş ürünlerine %10 KDV indirimli fiyatlar ve kartsız kefilsiz alışveriş ile sahip olabilirsiniz. Detaylar Doğtaş mağazalarında sizleri bekliyor.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0041990_864-700.jpeg" alt="Kartsız kefilsiz alışveriş imkanı Doğtaş’ta" title="Kartsız kefilsiz alışveriş imkanı Doğtaş’ta"></div>
+                            </div>
+                        </div>
+                        <div class="slide-item" data-campaign-id="5">
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="main-title"><span class="title-row"></span></div>
+                                        </div>
+                                        <div class="action-area"><a href="/evim-set-1" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Kampanyayı İncele</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-area"><a class="image-holder" href="/evim-set-1"> <img loading="lazy" class="image" src="images/0043822_Firsat_Paketi_A5.jpeg"> </a></div>
+                        </div>
+                        <div class="slide-item" data-campaign-id="36">
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="main-title"><span class="title-row"></span></div>
+                                        </div>
+                                        <div class="action-area"><a href="/5-gunde-teslimat-firsati" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Kampanyayı İncele</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-area"><a class="image-holder" href="/5-gunde-teslimat-firsati"> <img loading="lazy" class="image" src="images/0037103_5-g%C3%83%C2%BCnde-teslimat-kampanya-alan%C3%84%C2%B1.jpeg"> </a></div>
+                        </div>
+                    </div>
+                    <div class="slide-controllers valign-center-wrapper">
+                        <div class="flex-item">
+                            <div class="slide-track-navigation"><i class="navigation left-navigation chevron left icon"></i> <i class="navigation right-navigation chevron right icon"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homepage-related-collections">
+            <div class="container shadow-container white-bg-container large-container">
+                <div class="block">
+                    <div class="slide-items">
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0012574_loft-koltuk-takimi.jpeg" alt="Loft Koltuk Takımı" title="Loft Koltuk Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <h2 class="main-title"><span class="surtitle">Ayın Fırsatı</span> <span class="collection-name">LOFT KOLTUK TAKIMI</span></h2>
+                                        </div>
+                                        <div class="description-area">
+                                            <p>Loft Serisi, evinizden bir kez daha keyif almanızı sağlayacak. Dar evlere göre düşünülen modül boyutları kişileştirilebilir.</p>
+                                        </div>
+                                        <div class="action-and-price-area price-hidden">
+                                            <div class="action-area valign-center-wrapper">
+                                                <div class="flex-item"><a href="/loft-koltuk-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Ürünü Göster</span> </a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0012141_loft-kose-takimi.jpeg" alt="Loft Köşe Takımı" title="Loft Köşe Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <h2 class="main-title"><span class="surtitle">Ayın Fırsatı</span> <span class="collection-name">LOFT KÖŞE TAKIMI</span></h2>
+                                        </div>
+                                        <div class="description-area">
+                                            <p>Fonksiyonelliği ve sadeliği buluşturan şık tasarımıyla Loft köşe takımı, yaşam alanlarınızı daha kullanışlı ve keyifli bir hale getiriyor.</p>
+                                        </div>
+                                        <div class="action-and-price-area price-hidden">
+                                            <div class="action-area valign-center-wrapper">
+                                                <div class="flex-item"><a href="/loft-kose-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Ürünü Göster</span> </a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0016373_mayer-koltuk-takimi.jpeg" alt="Mayer Koltuk Takımı" title="Mayer Koltuk Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <h2 class="main-title"><span class="surtitle">Ayın Fırsatı</span> <span class="collection-name">MAYER KOLTUK TAKIMI</span></h2>
+                                        </div>
+                                        <div class="description-area">
+                                            <p>Bir koltuk takımından beklentileriniz neler? Yanıtınız “şık, ekonomik, rahat ve fonksiyonel” ise Mayer koltuk takımı tam size göre! Modern ve spor tarzı bir araya getiren takım evinize çok yakışacak!</p>
+                                        </div>
+                                        <div class="action-and-price-area price-hidden">
+                                            <div class="action-area valign-center-wrapper">
+                                                <div class="flex-item"><a href="/mayer-koltuk-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Ürünü Göster</span> </a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0017586_mila-kose-takimi.jpeg" alt="Mıla Köşe Takımı" title="Mıla Köşe Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <h2 class="main-title"><span class="surtitle">Ayın Fırsatı</span> <span class="collection-name">MILA KÖŞE TAKIMI</span></h2>
+                                        </div>
+                                        <div class="action-and-price-area price-hidden">
+                                            <div class="action-area valign-center-wrapper">
+                                                <div class="flex-item"><a href="/mila-kose-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Ürünü Göster</span> </a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-controllers valign-center-wrapper">
+                        <div class="flex-item">
+                            <div class="slide-track-navigation"><i class="navigation left-navigation chevron left icon"></i> <i class="navigation right-navigation chevron right icon"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homepage-related-contents bg-noise bg-gradient rightToLeft-gradient">
+            <div class="container small-container">
+                <div class="block">
+                    <div class="title-area">
+                        <h2 class="title">SİZİN İÇİN SEÇTİKLERİMİZ</h2>
+                    </div>
+                    <div class="boxed-area ui grid">
+                        <div class="stretched row">
+                            <a href="logan-yemek-odasi" class="large-content-area eight wide computer sixteen wide tablet column">
+                                <div class="large-content-wrapper valign-bottom-wrapper" style="background-image:url(&#x27;images/0024842_logan-yemek-odasi.jpeg&#x27;)">
+                                    <div class="flex-item">
+                                        <span class="title">LOGAN YEMEK ODASI TAKIMI</span>
+                                        <div class="description-area">
+                                            <p>LIMITED EDITION</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="small-contents-area eight wide computer sixteen wide tablet column">
+                                <div class="ui grid">
+                                    <a href="https://www.ruumstore.com/" target="_blank" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-button-wrapper">
+                                        <div class="flex-item">
+                                            <span class="title">Dar Alanlara En Tarz Çözümler</span>
+                                            <div class="description-area">
+                                                <p>Küçük alanlar için en fonksiyonel çözümler, yaşam alanlarınız için en optimum ölçü avantajı Doğtaş’ın online satış markası Ruumstore’da...</p>
+                                            </div>
+                                            <div class="action-area"><span class="button circle-icon-button"> <i class="chevron right icon"></i> </span></div>
+                                        </div>
+                                    </a>
+                                    <a href="oturma-odasi-dekorasyonu" target="_blank" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-bg-image-wrapper" style="background-image:url(images/0013668_oturma-odasi-dekorasyonu.jpeg)">
+                                        <div class="flex-item"><span class="title"> <span class="collection-name">OTURMA ODASI</span> <span class="product-name">DEKORASYONU</span> </span></div>
+                                    </a>
+                                    <a href="diamond-tv-unitesi" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-bg-image-wrapper" style="background-image:url(images/0008877_diamond-tv-untes.jpeg)">
+                                        <div class="flex-item"><span class="title"> <span class="collection-name">DIAMOND</span> <span class="product-name">TV ÜNİTESİ</span> </span></div>
+                                    </a>
+                                    <a href="https://home.dogtas.narmedia.az/" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-button-wrapper">
+                                        <div class="flex-item">
+                                            <span class="title">Doğtaş Home</span>
+                                            <div class="description-area">
+                                                <p>Evinize tarz katacak birbirinden şık kombinasyonlar oluşturabileceğiniz Doğtaş Home aksesuarları ile tanışın.</p>
+                                            </div>
+                                            <div class="action-area"><span class="button circle-icon-button"> <i class="chevron right icon"></i> </span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homepage-featured-collections">
+            <div class="container small-container shadow-container white-bg-container">
+                <div class="block">
+                    <div class="slide-items">
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0042632_bold-genc-odasi-takimi.jpeg" alt="Bold Genç Odası Takımı" title="Bold Genç Odası Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">BOLD GENÇ ODASI TAKIMI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/bold-genc-odasi-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0043112_costa-koltuk-takimi.jpeg" alt="Costa Koltuk Takımı" title="Costa Koltuk Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">COSTA KOLTUK TAKIMI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/costa-koltuk-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0042519_nevada-koltuk-takimi.jpeg" alt="Nevada Koltuk Takımı" title="Nevada Koltuk Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">NEVADA KOLTUK TAKIMI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/nevada-koltuk-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0043403_othello-moduler-koltuk-takimi.jpeg" alt="Othello Modüler Koltuk Takımı" title="Othello Modüler Koltuk Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">OTHELLO MODÜLER KOLTUK TAKIMI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/othello-moduler-koltuk-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0042970_savana-yemek-odasi.jpeg" alt="Savana Yemek Odası" title="Savana Yemek Odası"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">SAVANA YEMEK ODASI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/savana-yemek-odasi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0043513_arch-yemek-odasi.jpeg" alt="Arch Yemek Odası" title="Arch Yemek Odası"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">ARCH YEMEK ODASI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/arch-yemek-odasi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0042261_gift-yatak-odasi-takimi.jpeg" alt="Gıft Yatak Odası Takımı" title="Gıft Yatak Odası Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">GIFT YATAK ODASI TAKIMI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/gift-yatak-odasi-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0042861_savana-yatak-odasi-takimi.jpeg" alt="Savana Yatak Odası Takımı" title="Savana Yatak Odası Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">SAVANA YATAK ODASI TAKIMI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/savana-yatak-odasi-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0042428_integra-moduler-dolap-sstemler.jpeg" alt="Integra Modüler Dolap Sistemleri" title="Integra Modüler Dolap Sistemleri"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">INTEGRA MODÜLER DOLAP SİSTEMLERİ</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/integra-moduler-dolap-sistemleri" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0041049_costa-yatak-odasi.jpeg" alt="Costa Yatak Odası" title="Costa Yatak Odası"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="content-wrapper valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="title-area">
+                                            <div class="surtitle">2023<br>EN YENİLER</div>
+                                            <h2 class="main-title">COSTA YATAK ODASI</h2>
+                                        </div>
+                                        <div class="action-area"><a href="/costa-yatak-odasi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Koleksiyonu Keşfet</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-controllers valign-center-wrapper">
+                        <div class="flex-item">
+                            <div class="slide-track-navigation">
+                                <i class="navigation left-navigation chevron left icon"></i> <i class="navigation right-navigation chevron right icon"></i>
+                                <div class="slide-dots valign-center-wrapper"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homepage-related-contents bg-noise bg-gradient rightToLeft-gradient">
+            <div class="container small-container">
+                <div class="block">
+                    <div class="title-area">
+                        <h2 class="title">NEDEN DOĞTAŞ</h2>
+                    </div>
+                    <div class="boxed-area ui grid">
+                        <div class="stretched row">
+                            <a href="neden-dogtas" class="large-content-area eight wide computer sixteen wide tablet column custom-content-dogtas">
+                                <div class="large-content-wrapper valign-bottom-wrapper" style="background-image:url(&#x27;images/0041181_0016561_Neden%20Dog%C3%8C_tas%C3%8C%C2%A7.jpeg&#x27;)">
+                                    <div class="flex-item"><span class="title">NEDEN DOĞTAŞ</span></div>
+                                </div>
+                            </a>
+                            <div class="small-contents-area eight wide computer sixteen wide tablet column">
+                                <div class="ui grid">
+                                    <a href="guvenli-uretim" target="_blank" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-bg-image-wrapper custom-content-dogtas custom-content-white with-button-wrapper" style="background-image:url(images/0016121_gu%C3%8C_venli-u%C3%8C_retim.jpeg)">
+                                        <div class="flex-item">
+                                            <span class="title title-gold"> <span class="collection-name">Güvenli Üretim</span> </span>
+                                            <div class="action-area"><span class="button circle-icon-button"> <i class="chevron right icon"></i> </span></div>
+                                        </div>
+                                    </a>
+                                    <a href="hammadde-kalitesi" target="_blank" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-bg-image-wrapper custom-content-dogtas custom-content-white" style="background-image:url(images/0016123_hammadde.jpeg)">
+                                        <div class="flex-item"><span class="title"> <span class="collection-name">Hammadde</span> <span class="product-name">Kalitemiz</span> </span></div>
+                                    </a>
+                                    <a href="garanti-suresi" target="_blank" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-bg-image-wrapper custom-content-dogtas custom-content-white" style="background-image:url(images/0016122_y-y%C3%84%C2%B1l.jpeg)">
+                                        <div class="flex-item"><span class="title"> <span class="collection-name">Ürün</span> <span class="product-name">Güvencesi</span> </span></div>
+                                    </a>
+                                    <a href="yerli-uretim-yerli-sermaye" target="_blank" class="small-content-wrapper valign-bottom-wrapper eight wide computer eight wide tablet sixteen wide mobile column with-bg-image-wrapper custom-content-dogtas custom-content-white with-button-wrapper" style="background-image:url(images/0016120_u%C3%8C_retim.jpeg)">
+                                        <div class="flex-item">
+                                            <span class="title title-gold"> <span class="collection-name">Yerli Üretim</span> </span>
+                                            <div class="action-area"><span class="button circle-icon-button"> <i class="chevron right icon"></i> </span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homepage-featured-contents bg-noise bg-gradient overflow-visible leftToRight-gradient">
+            <div class="container large-container">
+                <div class="block">
+                    <div class="content-wrapper">
+                        <div class="featured-product">
+                            <div class="image-area">
+                                <div class="image-holder"><img loading="lazy" class="image" src="images/0016660_larina-koltuk-takimi.jpeg" alt="Larına Koltuk Takımı" title="Larına Koltuk Takımı"></div>
+                            </div>
+                            <div class="content-area">
+                                <div class="wrapper-holder valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <div class="surtitle"><span class="surtitle-row">BU AYIN<br>EN BEĞENİLEN ÜRÜNÜ</span></div>
+                                        <div class="title">
+                                            <span class="collection-name">LARINA</span>
+                                            <div class="product-name">KOLTUK TAKIMI</div>
+                                        </div>
+                                        <div class="action-area"><a href="/larina-koltuk-takimi" class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Ürünü İncele</span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="find-stores" style="background-image:url(&#x27;images/0012156_0011145_find-stores-bg.jpeg&#x27;)">
+                            <div class="wrapper-holder valign-bottom-wrapper">
+                                <div class="flex-item">
+                                    <div class="title"><span class="title-row">SİZE EN YAKIN<br>MAĞAZAYI BULUN</span></div>
+                                    <div class="selection-area">
+                                        <div class="selection-row"><a href="https://www.dogtas.narmedia.az/magazalar?magaza-tipi=yurt-ici-magazalar" class="selection-action"> <span class="text">Türkiye'de</span> <i class="caret right icon"></i> </a></div>
+                                        <div class="selection-row"><a href="https://www.dogtas.narmedia.az/magazalar?magaza-tipi=yurt-disi-magazalar" class="selection-action"> <span class="text">Yurt Dışında</span> <i class="caret right icon"></i> </a></div>
+                                        <div class="selection-row"><a href="https://www.dogtas.narmedia.az/magazalar" class="selection-action"> <span class="text">Tüm Mağazalar</span> <i class="caret right icon"></i> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="homepage-blog-list">
+            <div class="container small-container">
+                <div class="block">
+                    <div class="title-area">
+                        <h2 class="title">DOĞTAŞ BLOG</h2>
+                    </div>
+                    <div class="blog-categories">
+                        <div class="slide-items"><a href="/blog/tag/kal%C4%B1c%C4%B1%20oda%20kokular%C4%B1" class="slide-item">KALICI ODA KOKULARI</a> <a href="/blog/tag/duvar%20boyama" class="slide-item">DUVAR BOYAMA</a> <a href="/blog/tag/duvar%20boyama%20teknikleri" class="slide-item">DUVAR BOYAMA TEKNİKLERİ</a> <a href="/blog/tag/mutfak%20dolab%C4%B1%20d%C3%BCzeni" class="slide-item">MUTFAK DOLABI DÜZENİ</a> <a href="/blog/tag/akrilik%20hal%C4%B1%20nedir%3F%20akrilik%20hal%C4%B1%20%C3%B6zellikleri%20neler" class="slide-item">AKRİLİK HALI NEDİR? AKRİLİK HALI ÖZELLİKLERİ NELER</a> <a href="/blog/tag/minimalist%20mutfak" class="slide-item">MİNİMALİST MUTFAK</a> <a href="/blog/tag/k%C3%BC%C3%A7%C3%BCk%20yatak%20odas%C4%B1%20dekorasyonu" class="slide-item">KÜÇÜK YATAK ODASI DEKORASYONU</a> <a href="/blog/tag/dikd%C3%B6rtgen%20salon%20dekorasyonu" class="slide-item">DİKDÖRTGEN SALON DEKORASYONU</a> <a href="/blog/tag/beyaz%20mutfak%20dekorasyonu" class="slide-item">BEYAZ MUTFAK DEKORASYONU</a> <a href="/blog/tag/art%20deco%20ne%20demek" class="slide-item">ART DECO NE DEMEK</a> <a href="/blog/tag/yatak%20odas%C4%B1%20dekorasyonu" class="slide-item">YATAK ODASI DEKORASYONU</a> <a href="/blog/tag/edit%C3%B6rden" class="slide-item">EDİTÖRDEN</a> <a href="/blog/tag/mobilya%20se%C3%A7imi" class="slide-item">MOBİLYA SEÇİMİ</a> <a href="//blog" class="slide-item">TÜMÜNÜ GÖRÜNTÜLE</a></div>
+                    </div>
+                    <div class="blog-list">
+                        <div class="slide-items">
+                            <a href="/pop-art-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0032774_pop-art-dekorasyon-k.jpeg" alt="Pop Art Nedir? Pop Art Ev Dekorasyonuna 9 Örnek" title="Pop Art Nedir? Pop Art Ev Dekorasyonuna 9 Örnek"></div>
+                                <div class="blog-details"><span class="blog-title">Pop Art Nedir? Pop Art Ev Dekorasyonuna 9 Örnek</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yemek-masasi-olculeri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0042018_yemek-masasi.jpeg" alt="Eviniz için İdeal Yemek Masası Ölçüleri Nelerdir?" title="Eviniz için İdeal Yemek Masası Ölçüleri Nelerdir?"></div>
+                                <div class="blog-details"><span class="blog-title">Eviniz için İdeal Yemek Masası Ölçüleri Nelerdir?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ortopedik-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0042017_ortopedik.jpeg" alt="Ortopedik Ne Demek? Ortopedik Yataklar ile İlgili 4 Ayrıntı" title="Ortopedik Ne Demek? Ortopedik Yataklar ile İlgili 4 Ayrıntı"></div>
+                                <div class="blog-details"><span class="blog-title">Ortopedik Ne Demek? Ortopedik Yataklar ile İlgili 4 Ayrıntı</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/oda-bolme-fikirleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0032742_cam-oda-bolmesi.jpeg" alt="Evlerinize İşlevsellik Katacak Oda Bölme Fikirleri" title="Evlerinize İşlevsellik Katacak Oda Bölme Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Evlerinize İşlevsellik Katacak Oda Bölme Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/cift-kisilik-yatak-olculeri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0032558_yatak.jpeg" alt="Kaliteli Bir Uyku Mümkün: Çift Kişilik Yatak Ölçüleri" title="Kaliteli Bir Uyku Mümkün: Çift Kişilik Yatak Ölçüleri"></div>
+                                <div class="blog-details"><span class="blog-title">Kaliteli Bir Uyku Mümkün: Çift Kişilik Yatak Ölçüleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/siyah-ev" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0032548_siyah-ev-dekorasyonu.jpeg" alt="Cesur ve İddialı Siyah Ev Dekorasyonu Fikirleri" title="Cesur ve İddialı Siyah Ev Dekorasyonu Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Cesur ve İddialı Siyah Ev Dekorasyonu Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/monokrom" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0032550_monokrom-ev.jpeg" alt="Dengeli Bir Tarzın Anahtarı: Monokrom Evler" title="Dengeli Bir Tarzın Anahtarı: Monokrom Evler"></div>
+                                <div class="blog-details"><span class="blog-title">Dengeli Bir Tarzın Anahtarı: Monokrom Evler</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/pike-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0032488_yesil-pike-ortusu.jpeg" alt="Bahar Aylarının Vazgeçilmez Örtüsü Pike Nedir?" title="Bahar Aylarının Vazgeçilmez Örtüsü Pike Nedir?"></div>
+                                <div class="blog-details"><span class="blog-title">Bahar Aylarının Vazgeçilmez Örtüsü Pike Nedir?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/kilim-motifleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0030703_turk-kilimleri.jpeg" alt="Türk Kültüründe Kilim Motifleri ve Anlamları" title="Türk Kültüründe Kilim Motifleri ve Anlamları"></div>
+                                <div class="blog-details"><span class="blog-title">Türk Kültüründe Kilim Motifleri ve Anlamları</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/saksi-cicek-isimleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0030684_saksi-cicegi-ve-kitap.jpeg" alt="Dekorasyonu Canlandıracak Saksı Çiçeği İsimleri" title="Dekorasyonu Canlandıracak Saksı Çiçeği İsimleri"></div>
+                                <div class="blog-details"><span class="blog-title">Dekorasyonu Canlandıracak Saksı Çiçeği İsimleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/tv-kablosu-gizleme" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0030682_tv-kablosu-gizleme.jpeg" alt="Hem Pratik Hem Yaratıcı TV Kablosu Gizleme Önerileri" title="Hem Pratik Hem Yaratıcı TV Kablosu Gizleme Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">Hem Pratik Hem Yaratıcı TV Kablosu Gizleme Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/mum-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0030685_mum-dekorasyonu.jpeg" alt="Işıltısını Evlerinize Taşıyacak Mum Dekorasyon Fikirleri" title="Işıltısını Evlerinize Taşıyacak Mum Dekorasyon Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Işıltısını Evlerinize Taşıyacak Mum Dekorasyon Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ahsap-renkleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0030689_ahsap-kartelasi.jpeg" alt="Ahşap Renkleri Nelerdir? Mobilyalarda Ahşap Renk Kullanımı" title="Ahşap Renkleri Nelerdir? Mobilyalarda Ahşap Renk Kullanımı"></div>
+                                <div class="blog-details"><span class="blog-title">Ahşap Renkleri Nelerdir? Mobilyalarda Ahşap Renk Kullanımı</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/nubuk-kumas" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028360_nubuk-koltuk.jpeg" alt="Koltuklarda Nubuk Kumaş Kullanımına Dair Her Şey" title="Koltuklarda Nubuk Kumaş Kullanımına Dair Her Şey"></div>
+                                <div class="blog-details"><span class="blog-title">Koltuklarda Nubuk Kumaş Kullanımına Dair Her Şey</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/veranda-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028362_veranda.jpeg" alt="Veranda Nedir? Veranda Dekorasyonu İçin 10 Öneri" title="Veranda Nedir? Veranda Dekorasyonu İçin 10 Öneri"></div>
+                                <div class="blog-details"><span class="blog-title">Veranda Nedir? Veranda Dekorasyonu İçin 10 Öneri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ofis-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028365_ofis-dekorasyon%20%281%29.jpeg" alt="İş Yeriniz İçin İlham Alabileceğiniz 8 Ofis Dekorasyon Önerisi" title="İş Yeriniz İçin İlham Alabileceğiniz 8 Ofis Dekorasyon Önerisi"></div>
+                                <div class="blog-details"><span class="blog-title">İş Yeriniz İçin İlham Alabileceğiniz 8 Ofis Dekorasyon Önerisi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/en-cok-tercih-edilen-dogtas-urunleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028350_oturma-grubu.jpeg" alt="2021'de En Çok Tercih Edilen Doğtaş Ürünleri" title="2021'de En Çok Tercih Edilen Doğtaş Ürünleri"></div>
+                                <div class="blog-details"><span class="blog-title">2021'de En Çok Tercih Edilen Doğtaş Ürünleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/geri-donusum-fikirleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028349_geri-donusum-fikirleri.png" alt="Evde Uygulayabileceğiniz Geri Dönüşüm Fikirleri" title="Evde Uygulayabileceğiniz Geri Dönüşüm Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Evde Uygulayabileceğiniz Geri Dönüşüm Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ev-temizligi-nasil-yapilir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028069_ev-temizligi-yapan-anne-ve-kiz.jpeg" alt="15 Adımda Ev Temizliği Nasıl Yapılır?" title="15 Adımda Ev Temizliği Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">15 Adımda Ev Temizliği Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/merdiven-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028048_merdiven-dekosyon.jpeg" alt="Evlerinize Şıklık Katacak 5 Merdiven Dekorasyon Fikri" title="Evlerinize Şıklık Katacak 5 Merdiven Dekorasyon Fikri"></div>
+                                <div class="blog-details"><span class="blog-title">Evlerinize Şıklık Katacak 5 Merdiven Dekorasyon Fikri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/masif-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028043_masif-sehpa.jpeg" alt="Masif Ne Demek? 5 İpucu İle Ahşap Mobilya Kullanımı" title="Masif Ne Demek? 5 İpucu İle Ahşap Mobilya Kullanımı"></div>
+                                <div class="blog-details"><span class="blog-title">Masif Ne Demek? 5 İpucu İle Ahşap Mobilya Kullanımı</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/bebek-odasi-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028047_bebek-yatagi.jpeg" alt="Sevimliliği ile Dikkat Çeken 7 Bebek Odası Dekorasyon Önerisi" title="Sevimliliği ile Dikkat Çeken 7 Bebek Odası Dekorasyon Önerisi"></div>
+                                <div class="blog-details"><span class="blog-title">Sevimliliği ile Dikkat Çeken 7 Bebek Odası Dekorasyon Önerisi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/sevgiliyle-izlenecek-romantik-filmler" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0028029_tv-unitesi.jpeg" alt="Sevgilinizle İzleyebileceğiniz 10 Romantik Film" title="Sevgilinizle İzleyebileceğiniz 10 Romantik Film"></div>
+                                <div class="blog-details"><span class="blog-title">Sevgilinizle İzleyebileceğiniz 10 Romantik Film</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/koltuk-renkleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0027609_kirmizi-koltuk-takimi-k.jpeg" alt="Modası Geçmeyecek Koltuk Renkleri Hangileridir?" title="Modası Geçmeyecek Koltuk Renkleri Hangileridir?"></div>
+                                <div class="blog-details"><span class="blog-title">Modası Geçmeyecek Koltuk Renkleri Hangileridir?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/kose-koltuk-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0027607_kose-takimi-k.jpeg" alt="Köşe Koltuk Dekorasyon Fikirleri İle Evinizi Yenileyin" title="Köşe Koltuk Dekorasyon Fikirleri İle Evinizi Yenileyin"></div>
+                                <div class="blog-details"><span class="blog-title">Köşe Koltuk Dekorasyon Fikirleri İle Evinizi Yenileyin</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/baza-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0027605_ortopedik-baza-k.jpeg" alt="Baza Nedir? Baza Seçiminde Dikkat Edilmesi Gerekenler" title="Baza Nedir? Baza Seçiminde Dikkat Edilmesi Gerekenler"></div>
+                                <div class="blog-details"><span class="blog-title">Baza Nedir? Baza Seçiminde Dikkat Edilmesi Gerekenler</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yatak-temizligi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0027603_temizlenmis-yatak-odasi-k.jpeg" alt="6 Adımda Yatak Temizliği Nasıl Yapılır?" title="6 Adımda Yatak Temizliği Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">6 Adımda Yatak Temizliği Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/endustriyel-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0027601_endustriyel-dekorasyon.jpeg" alt="Yaşam Alanlarında Dönüşüm: Endüstriyel Dekorasyon" title="Yaşam Alanlarında Dönüşüm: Endüstriyel Dekorasyon"></div>
+                                <div class="blog-details"><span class="blog-title">Yaşam Alanlarında Dönüşüm: Endüstriyel Dekorasyon</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yatak-odasi-avizesi-nasil-olmali" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0026582_yatak-odasi-avizesi.jpeg" alt="Yatak Odası Avizesi Nasıl Olmalı? İpuçlarıyla Aydınlatma Seçimi" title="Yatak Odası Avizesi Nasıl Olmalı? İpuçlarıyla Aydınlatma Seçimi"></div>
+                                <div class="blog-details"><span class="blog-title">Yatak Odası Avizesi Nasıl Olmalı? İpuçlarıyla Aydınlatma Seçimi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/mobilya-cilalama" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0026581_sehpa.jpeg" alt="Parıldayan Mobilyalar İçin Mobilya Cilalama Önerileri" title="Parıldayan Mobilyalar İçin Mobilya Cilalama Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">Parıldayan Mobilyalar İçin Mobilya Cilalama Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yatak-odasi-renkleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0026515_yatak.jpeg" alt="Dekorasyonu Canlandıracak Yatak Odası Renkleri" title="Dekorasyonu Canlandıracak Yatak Odası Renkleri"></div>
+                                <div class="blog-details"><span class="blog-title">Dekorasyonu Canlandıracak Yatak Odası Renkleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yilbasi-hediye-fikirleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0026502_hediye-paketleri-k.jpeg" alt="Birbirinden İlgi Çekici Yılbaşı Hediye Fikirleri" title="Birbirinden İlgi Çekici Yılbaşı Hediye Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Birbirinden İlgi Çekici Yılbaşı Hediye Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yilbasinda-ne-yapilir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0026500_kadin-k.jpeg" alt="Evde Keyifli Vakit Geçirmek İçin Yılbaşında Ne Yapılır?" title="Evde Keyifli Vakit Geçirmek İçin Yılbaşında Ne Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Evde Keyifli Vakit Geçirmek İçin Yılbaşında Ne Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/modern-ev-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0025973_modern-ev-dekorasyonu.jpeg" alt="Modern Ev Dekorasyonu Yapmak İsteyenlere İlham Fikirleri" title="Modern Ev Dekorasyonu Yapmak İsteyenlere İlham Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Modern Ev Dekorasyonu Yapmak İsteyenlere İlham Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/evde-dogum-gunu-masasi-hazirlama" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0025969_cocuklar.jpeg" alt="Evde Doğum Günü Masası Hazırlama Önerileri" title="Evde Doğum Günü Masası Hazırlama Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">Evde Doğum Günü Masası Hazırlama Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/abajur-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0025967_abajurlar.jpeg" alt="Abajur Nedir? 4 Öneri İle Evinize Uygun Abajur Seçimi" title="Abajur Nedir? 4 Öneri İle Evinize Uygun Abajur Seçimi"></div>
+                                <div class="blog-details"><span class="blog-title">Abajur Nedir? 4 Öneri İle Evinize Uygun Abajur Seçimi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/renk-uyumlari" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0041113_dogtas-luna-koltuk-takimi.jpeg" alt="Ev Dekorasyonunda Renk Uyumu Nasıl Olmalı?" title="Ev Dekorasyonunda Renk Uyumu Nasıl Olmalı?"></div>
+                                <div class="blog-details"><span class="blog-title">Ev Dekorasyonunda Renk Uyumu Nasıl Olmalı?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/hali-nasil-silinir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0042023_hali.jpeg" alt="Halı Nasıl Silinir? İpuçlarıyla Halı Temizliği" title="Halı Nasıl Silinir? İpuçlarıyla Halı Temizliği"></div>
+                                <div class="blog-details"><span class="blog-title">Halı Nasıl Silinir? İpuçlarıyla Halı Temizliği</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/makyaj-masasi-duzeni" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0024888_makyaj-masasi.jpeg" alt="6 Adımda Makyaj Masası Düzeni Nasıl Oluşturulur?" title="6 Adımda Makyaj Masası Düzeni Nasıl Oluşturulur?"></div>
+                                <div class="blog-details"><span class="blog-title">6 Adımda Makyaj Masası Düzeni Nasıl Oluşturulur?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/banyo-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0024887_boho-banyo.jpeg" alt="Şıklığına Hayran Kalacağınız Banyo Dekorasyon Fikirleri" title="Şıklığına Hayran Kalacağınız Banyo Dekorasyon Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Şıklığına Hayran Kalacağınız Banyo Dekorasyon Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/bohem-tarz-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0042022_dresuar.jpeg" alt="Bohem Tarz Nedir? Bohem Stil İle Evlere Yeni Bir Soluk" title="Bohem Tarz Nedir? Bohem Stil İle Evlere Yeni Bir Soluk"></div>
+                                <div class="blog-details"><span class="blog-title">Bohem Tarz Nedir? Bohem Stil İle Evlere Yeni Bir Soluk</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/evde-nisan" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0023174_evde-nisan-masasi.jpeg" alt="Evde Nişan Masası Nasıl Hazırlanır?" title="Evde Nişan Masası Nasıl Hazırlanır?"></div>
+                                <div class="blog-details"><span class="blog-title">Evde Nişan Masası Nasıl Hazırlanır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/salon-salomanje" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0023178_salon-salomanje%20%281%29.jpeg" alt="Salon Salomanje Nedir? 3 Başlıkta Salomanje Dekorasyonu" title="Salon Salomanje Nedir? 3 Başlıkta Salomanje Dekorasyonu"></div>
+                                <div class="blog-details"><span class="blog-title">Salon Salomanje Nedir? 3 Başlıkta Salomanje Dekorasyonu</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yesil-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0023180_yesil-dekorasyon.jpeg" alt="Yeşil Dekorasyon Fikirleri İle Doğayı Evinize Taşıyın!" title="Yeşil Dekorasyon Fikirleri İle Doğayı Evinize Taşıyın!"></div>
+                                <div class="blog-details"><span class="blog-title">Yeşil Dekorasyon Fikirleri İle Doğayı Evinize Taşıyın!</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ev-hediyesi-ne-alinir-2" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0022454_hediye-paketii.jpeg" alt="Yeni Evliler ve Yeni Taşınanlar İçin Ev Hediyesi Önerileri" title="Yeni Evliler ve Yeni Taşınanlar İçin Ev Hediyesi Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">Yeni Evliler ve Yeni Taşınanlar İçin Ev Hediyesi Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/maksimalist-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0023100_maksimalist-dekorasyon.jpeg" alt="Maksimalist Ne Demek? Maksimalist Ev Dekorasyonu Önerileri" title="Maksimalist Ne Demek? Maksimalist Ev Dekorasyonu Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">Maksimalist Ne Demek? Maksimalist Ev Dekorasyonu Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/cati-kati-modelleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0042647_beyaz-bir-kitaplik-ve-somine.jpeg" alt="Hayallerinizi Gerçek Kılacak Çatı Katı Modelleri" title="Hayallerinizi Gerçek Kılacak Çatı Katı Modelleri"></div>
+                                <div class="blog-details"><span class="blog-title">Hayallerinizi Gerçek Kılacak Çatı Katı Modelleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/evde-cerceve-yapimi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0022452_gold-cercevee.jpeg" alt="10 Adımda Evde Çerçeve Yapımı ve Çerçeve Fikirleri" title="10 Adımda Evde Çerçeve Yapımı ve Çerçeve Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">10 Adımda Evde Çerçeve Yapımı ve Çerçeve Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/eklektik" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0020571_eklektik.jpeg" alt="Eklektik Nedir? En Çarpıcı Eklektik Dekorasyon Önerileri" title="Eklektik Nedir? En Çarpıcı Eklektik Dekorasyon Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">Eklektik Nedir? En Çarpıcı Eklektik Dekorasyon Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/calisma-odasi-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0020573_calisma-odasii.jpeg" alt="Verimliliğinizi Artırın: Çalışma Odası Dekorasyonu Nasıl Olmalı?" title="Verimliliğinizi Artırın: Çalışma Odası Dekorasyonu Nasıl Olmalı?"></div>
+                                <div class="blog-details"><span class="blog-title">Verimliliğinizi Artırın: Çalışma Odası Dekorasyonu Nasıl Olmalı?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/hobi-odasi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0020567_hobi-malzemesi.jpeg" alt="Hobi Odası Hazırlarken İlham Alabileceğiniz 6 Fikir" title="Hobi Odası Hazırlarken İlham Alabileceğiniz 6 Fikir"></div>
+                                <div class="blog-details"><span class="blog-title">Hobi Odası Hazırlarken İlham Alabileceğiniz 6 Fikir</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/babaya-ne-hediye-alinir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0019998_baba-ve-kizi.jpeg" alt="Babaya Ne Hediye Alınır? 5 Hediye Önerisi" title="Babaya Ne Hediye Alınır? 5 Hediye Önerisi"></div>
+                                <div class="blog-details"><span class="blog-title">Babaya Ne Hediye Alınır? 5 Hediye Önerisi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/bahce-duzenleme" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0019713_bahce-duzenleme-fikirleri.jpeg" alt="Bahçe Düzenleme Fikirleri ile Bahçenizin Havasını Değiştirin!" title="Bahçe Düzenleme Fikirleri ile Bahçenizin Havasını Değiştirin!"></div>
+                                <div class="blog-details"><span class="blog-title">Bahçe Düzenleme Fikirleri ile Bahçenizin Havasını Değiştirin!</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/avangard-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0019715_avangard-ne-demek.jpeg" alt="Avangard Nedir? Evinize Şıklık Katacak Avangard Mobilyalar" title="Avangard Nedir? Evinize Şıklık Katacak Avangard Mobilyalar"></div>
+                                <div class="blog-details"><span class="blog-title">Avangard Nedir? Evinize Şıklık Katacak Avangard Mobilyalar</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/parizyen-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0019717_parizyen-stil.jpeg" alt="Ev Dekorasyonunda Parizyen Stili Ne Demek?" title="Ev Dekorasyonunda Parizyen Stili Ne Demek?"></div>
+                                <div class="blog-details"><span class="blog-title">Ev Dekorasyonunda Parizyen Stili Ne Demek?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/anneler-gunu-hediye-onerileri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0018711_anneler-gunu-hediye-onerileri.jpeg" alt="En Şık Sürpriz: Anneler Günü Hediye Önerileri" title="En Şık Sürpriz: Anneler Günü Hediye Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">En Şık Sürpriz: Anneler Günü Hediye Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/tv-unitesi-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0018706_tv-unitesi.jpeg" alt="Seyir Zevkinizi Arttıracak TV Ünitesi Dekorasyon Fikirleri" title="Seyir Zevkinizi Arttıracak TV Ünitesi Dekorasyon Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Seyir Zevkinizi Arttıracak TV Ünitesi Dekorasyon Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/genc-odasi-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0018696_genc-odasi.jpeg" alt="Modern ve Şık Genç Odası Dekorasyonları" title="Modern ve Şık Genç Odası Dekorasyonları"></div>
+                                <div class="blog-details"><span class="blog-title">Modern ve Şık Genç Odası Dekorasyonları</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/sinema-odasi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0018694_sinema-odasi.jpeg" alt="Evde Sinema Odası Kurmak İçin Fikirler" title="Evde Sinema Odası Kurmak İçin Fikirler"></div>
+                                <div class="blog-details"><span class="blog-title">Evde Sinema Odası Kurmak İçin Fikirler</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/teras-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0017811_teras-dekorasyon.jpeg" alt="Teras Dekorasyonu Nasıl Yapılır? İlham Verici 10 Fikir" title="Teras Dekorasyonu Nasıl Yapılır? İlham Verici 10 Fikir"></div>
+                                <div class="blog-details"><span class="blog-title">Teras Dekorasyonu Nasıl Yapılır? İlham Verici 10 Fikir</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/diy-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0017813_diy-ne-demek.jpeg" alt="DIY Ne Demek? DIY Dekorasyon Nasıl Yapılır?" title="DIY Ne Demek? DIY Dekorasyon Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">DIY Ne Demek? DIY Dekorasyon Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/iskandinav-tarzi-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0017807_iskandinav-tarzi.jpeg" alt="İskandinav Tarzı Dekorasyon Nasıl Yapılır?" title="İskandinav Tarzı Dekorasyon Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">İskandinav Tarzı Dekorasyon Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/retro-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0017806_retro-ne-demek.jpeg" alt="Retro Ne Demek? Evlerde Retro Dekorasyon" title="Retro Ne Demek? Evlerde Retro Dekorasyon"></div>
+                                <div class="blog-details"><span class="blog-title">Retro Ne Demek? Evlerde Retro Dekorasyon</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/vitrin-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0017173_yemek-odasi-vitrin.png" alt="Vitrin Ne Demek & Dekorasyonda Nasıl Kullanılır?" title="Vitrin Ne Demek & Dekorasyonda Nasıl Kullanılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Vitrin Ne Demek & Dekorasyonda Nasıl Kullanılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/feng-shui" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0011970_cover-image.jpeg" alt="Feng Shui ile Evlerde Bereket için 7 Dekorasyon Önerisi" title="Feng Shui ile Evlerde Bereket için 7 Dekorasyon Önerisi"></div>
+                                <div class="blog-details"><span class="blog-title">Feng Shui ile Evlerde Bereket için 7 Dekorasyon Önerisi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/salon-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0037548_salon-tasarimi.jpeg" alt="Küçük Salon Dekorasyonu Nasıl Yapılır?" title="Küçük Salon Dekorasyonu Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Küçük Salon Dekorasyonu Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/sevgililer-gununde-ne-yapilir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0016646_yatakta-birbirlerine-hediye-veren-cift.png" alt="Evde Sevgililer Gününde Ne Yapılır? 9 Öneri" title="Evde Sevgililer Gününde Ne Yapılır? 9 Öneri"></div>
+                                <div class="blog-details"><span class="blog-title">Evde Sevgililer Gününde Ne Yapılır? 9 Öneri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ahsap-dekorasyon" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0016563_ahsap-mobilyali-salon.png" alt="Ahşap Dekorasyon Fikirleri ile Evlerde Doğa Esintisi" title="Ahşap Dekorasyon Fikirleri ile Evlerde Doğa Esintisi"></div>
+                                <div class="blog-details"><span class="blog-title">Ahşap Dekorasyon Fikirleri ile Evlerde Doğa Esintisi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/bir-arti-bir-ev-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0016565_renkli-studyo-daire-salonu.png" alt="1+1 Ev Dekorasyonu Örnekleri & 10 Muhteşem Öneri" title="1+1 Ev Dekorasyonu Örnekleri & 10 Muhteşem Öneri"></div>
+                                <div class="blog-details"><span class="blog-title">1+1 Ev Dekorasyonu Örnekleri & 10 Muhteşem Öneri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/rustik-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0016566_rustik-ahsap-yemek-odasi-takimi.png" alt="Rustik Ne Demek? Modern Rustik Dekorasyon Fikirleri" title="Rustik Ne Demek? Modern Rustik Dekorasyon Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Rustik Ne Demek? Modern Rustik Dekorasyon Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ton-sur-ton" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015926_ton-sur-ton-kapak-gorsel.jpeg" alt="Dekorasyonda Ton Sür Ton Akımı Nasıl Uygulanır?" title="Dekorasyonda Ton Sür Ton Akımı Nasıl Uygulanır?"></div>
+                                <div class="blog-details"><span class="blog-title">Dekorasyonda Ton Sür Ton Akımı Nasıl Uygulanır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yilbasi-masasi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015883_yilbasi-masasi-kapak-gorsel.jpeg" alt="Yeni Yıl Ruhuna Yakışan Yılbaşı Masası Nasıl Hazırlanır?" title="Yeni Yıl Ruhuna Yakışan Yılbaşı Masası Nasıl Hazırlanır?"></div>
+                                <div class="blog-details"><span class="blog-title">Yeni Yıl Ruhuna Yakışan Yılbaşı Masası Nasıl Hazırlanır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yilbasi-ev-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015884_yilbasi-ev-dekorasyonu-kapak-gorsel.jpeg" alt="Evinizi Yeni Yıla Hazırlayın: Yılbaşı Ev Dekorasyonu" title="Evinizi Yeni Yıla Hazırlayın: Yılbaşı Ev Dekorasyonu"></div>
+                                <div class="blog-details"><span class="blog-title">Evinizi Yeni Yıla Hazırlayın: Yılbaşı Ev Dekorasyonu</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/vintage-ne-demek" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015925_vintage-ne-demek-kapak-gorsel.jpeg" alt="Vintage Ne Demek? Vintage Dekorasyon Nasıl Yapılır?" title="Vintage Ne Demek? Vintage Dekorasyon Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Vintage Ne Demek? Vintage Dekorasyon Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/okula-donus" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015078_okula-donus-okul-cantasi.png" alt="Okula Dönüş İçin Kapsamlı Okul Alışverişi Listesi" title="Okula Dönüş İçin Kapsamlı Okul Alışverişi Listesi"></div>
+                                <div class="blog-details"><span class="blog-title">Okula Dönüş İçin Kapsamlı Okul Alışverişi Listesi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/tasinmak-isteyenler-icin-esya-paketleme-rehberi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015038_yeni-eve-tasinan-mutlu-aile.png" alt="Kolayca Taşınmak İsteyenler İçin Eşya Paketleme Rehberi" title="Kolayca Taşınmak İsteyenler İçin Eşya Paketleme Rehberi"></div>
+                                <div class="blog-details"><span class="blog-title">Kolayca Taşınmak İsteyenler İçin Eşya Paketleme Rehberi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/mobilya-boyama" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015034_mobilya-boyama-yapan-kadin.png" alt="Eski Eşyaları Yenilemek İçin Mobilya Boyama Nasıl Yapılır?" title="Eski Eşyaları Yenilemek İçin Mobilya Boyama Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Eski Eşyaları Yenilemek İçin Mobilya Boyama Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/dolap-duzeni" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0015033_dolap-duzeni.png" alt="Düzenli Yatak Odaları İçin 12 Adımda Gardrop Düzeni" title="Düzenli Yatak Odaları İçin 12 Adımda Gardrop Düzeni"></div>
+                                <div class="blog-details"><span class="blog-title">Düzenli Yatak Odaları İçin 12 Adımda Gardrop Düzeni</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/salon-avizeleri-nasil-secilmeli" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014789_salon-avizeleri.jpeg" alt="Salon Avizeleri Nasıl Seçilmeli? Modern Salon Avizesi Modelleri" title="Salon Avizeleri Nasıl Seçilmeli? Modern Salon Avizesi Modelleri"></div>
+                                <div class="blog-details"><span class="blog-title">Salon Avizeleri Nasıl Seçilmeli? Modern Salon Avizesi Modelleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/masa-duzeni-nasil-olmali" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014753_masa-duzeni.jpeg" alt="Göz Alıcı Bir Sofrada Masa Düzeni Nasıl Olmalı?" title="Göz Alıcı Bir Sofrada Masa Düzeni Nasıl Olmalı?"></div>
+                                <div class="blog-details"><span class="blog-title">Göz Alıcı Bir Sofrada Masa Düzeni Nasıl Olmalı?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/sifonyer-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014752_sifonyer-nedir.jpeg" alt="Şifonyer Nedir ve Ne İşe Yarar?" title="Şifonyer Nedir ve Ne İşe Yarar?"></div>
+                                <div class="blog-details"><span class="blog-title">Şifonyer Nedir ve Ne İşe Yarar?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/mutfak-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014528_mutfak%20dekorasyonu.jpeg" alt="Mutfak Dekorasyonu Önerileri ile Evinizin Kalbini Dekore Edin!" title="Mutfak Dekorasyonu Önerileri ile Evinizin Kalbini Dekore Edin!"></div>
+                                <div class="blog-details"><span class="blog-title">Mutfak Dekorasyonu Önerileri ile Evinizin Kalbini Dekore Edin!</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/ev-duzenleme-ipuclari" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014437_daginik-ev.jpeg" alt="Dağınıklığa Son Verecek Ev Düzenleme İpuçları" title="Dağınıklığa Son Verecek Ev Düzenleme İpuçları"></div>
+                                <div class="blog-details"><span class="blog-title">Dağınıklığa Son Verecek Ev Düzenleme İpuçları</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/giyinme-odasi-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014436_giyinme-odasi.jpeg" alt="Giyinme Odaları İçin 8 Fonksiyonel Dekorasyon Önerisi" title="Giyinme Odaları İçin 8 Fonksiyonel Dekorasyon Önerisi"></div>
+                                <div class="blog-details"><span class="blog-title">Giyinme Odaları İçin 8 Fonksiyonel Dekorasyon Önerisi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yazlik-ev-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014384_yazlik-ev-dekorasyonu.jpeg" alt="Yazlık Ev Dekorasyonu İçin İlham Verecek 5 Fikir" title="Yazlık Ev Dekorasyonu İçin İlham Verecek 5 Fikir"></div>
+                                <div class="blog-details"><span class="blog-title">Yazlık Ev Dekorasyonu İçin İlham Verecek 5 Fikir</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/balkon-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014382_balkon-dekorasyonu.jpeg" alt="Balkon Keyfinizi Artıracak Balkon Dekorasyonu Fikirleri" title="Balkon Keyfinizi Artıracak Balkon Dekorasyonu Fikirleri"></div>
+                                <div class="blog-details"><span class="blog-title">Balkon Keyfinizi Artıracak Balkon Dekorasyonu Fikirleri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/kitaplik-duzenleme-onerileri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014101_okuma-kosesi.jpeg" alt="Kitap Kurtları İçin Kitaplık Düzenleme Önerileri" title="Kitap Kurtları İçin Kitaplık Düzenleme Önerileri"></div>
+                                <div class="blog-details"><span class="blog-title">Kitap Kurtları İçin Kitaplık Düzenleme Önerileri</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/cocuk-odasi-dekorasyon-fikirleri" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0033958_sky-genc-takimi%20%281%29.jpeg" alt="Çocuk Odası Dekorasyon Fikirleri ile Yaşam Alanını Baştan Yaratın!" title="Çocuk Odası Dekorasyon Fikirleri ile Yaşam Alanını Baştan Yaratın!"></div>
+                                <div class="blog-details"><span class="blog-title">Çocuk Odası Dekorasyon Fikirleri ile Yaşam Alanını Baştan Yaratın!</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/dogru-yatak-secimi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0014022_uykudan-uyanmak.jpeg" alt="Yatak Seçimi Nasıl Yapılmalı? Doğru Yatak Tercihinin 5 Püf Noktası" title="Yatak Seçimi Nasıl Yapılmalı? Doğru Yatak Tercihinin 5 Püf Noktası"></div>
+                                <div class="blog-details"><span class="blog-title">Yatak Seçimi Nasıl Yapılmalı? Doğru Yatak Tercihinin 5 Püf Noktası</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/evlilik-listesi" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0013198_alyans-yuzukler.jpeg" alt="Evlilik Hazırlığında Olan Çiftler İçin Pratik İhtiyaç Listesi" title="Evlilik Hazırlığında Olan Çiftler İçin Pratik İhtiyaç Listesi"></div>
+                                <div class="blog-details"><span class="blog-title">Evlilik Hazırlığında Olan Çiftler İçin Pratik İhtiyaç Listesi</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/sehpa-ustu-aksesuar" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0013667_orta-sehpa-uzeri-aksesuar.jpeg" alt="Sehpa Üstü Aksesuar Fikirleri Evinize Tarz Katacak!" title="Sehpa Üstü Aksesuar Fikirleri Evinize Tarz Katacak!"></div>
+                                <div class="blog-details"><span class="blog-title">Sehpa Üstü Aksesuar Fikirleri Evinize Tarz Katacak!</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/oturma-odasi-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0013668_oturma-odasi-dekorasyonu.jpeg" alt="Oturma Odası Dekorasyonu Nasıl Yapılır?" title="Oturma Odası Dekorasyonu Nasıl Yapılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Oturma Odası Dekorasyonu Nasıl Yapılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/dresuar-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0013250_dresuar-nedir.jpeg" alt="Dresuar Nedir, Ne İçin Kullanılır?" title="Dresuar Nedir, Ne İçin Kullanılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Dresuar Nedir, Ne İçin Kullanılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/home-ofis-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0012679_home-ofis-nedir.jpeg" alt="Home Ofis Nedir? Nasıl Verimli Bir Çalışma Ortamı Yaratılır?" title="Home Ofis Nedir? Nasıl Verimli Bir Çalışma Ortamı Yaratılır?"></div>
+                                <div class="blog-details"><span class="blog-title">Home Ofis Nedir? Nasıl Verimli Bir Çalışma Ortamı Yaratılır?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/konmari" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0012618_konmari-yontemiyle-camasir-toplama.jpeg" alt="KonMari ile Tanışın! KonMari Yöntemi ile 6 Adımda Ev Düzenleme" title="KonMari ile Tanışın! KonMari Yöntemi ile 6 Adımda Ev Düzenleme"></div>
+                                <div class="blog-details"><span class="blog-title">KonMari ile Tanışın! KonMari Yöntemi ile 6 Adımda Ev Düzenleme</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/yatak-odasi-dekorasyonu" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0012673_louisa-yatak-odasi.jpeg" alt="Yatak Odası Dekorasyonu İçin İlham Veren 7 Fikir" title="Yatak Odası Dekorasyonu İçin İlham Veren 7 Fikir"></div>
+                                <div class="blog-details"><span class="blog-title">Yatak Odası Dekorasyonu İçin İlham Veren 7 Fikir</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                            <a href="/berjer-nedir" class="slide-item">
+                                <div class="blog-image"><img loading="lazy" class="image" src="images/0012680_berjer-nedir.jpeg" alt="Berjer Nedir? Berjer Koltuk Nasıl Seçilir?" title="Berjer Nedir? Berjer Koltuk Nasıl Seçilir?"></div>
+                                <div class="blog-details"><span class="blog-title">Berjer Nedir? Berjer Koltuk Nasıl Seçilir?</span></div>
+                                <div class="blog-actions"><span class="button left-icon-button"> <i class="right angle icon"></i> <span class="text text-bold">Devamını Oku</span> </span></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="social-media-newsletter-section">
+            <div class="container large-container shadow-container white-bg-container social-media-container">
+                <div class="block">
+                    <div class="content-wrapper">
+                        <div class="social-media-items" id="instafeed">
+                            <div class="social-media-item social-media-follow large valign-center-wrapper">
+                                <div class="flex-item">
+                                    <h2 class="first-part">SOSYAL MEDYADA</h2>
+                                    <h2 class="second-part">BİZİ TAKİP EDİN</h2>
+                                </div>
+                            </div>
+                            <a href="https://www.facebook.com/dogtas/" title="Doğtaş Online Facebook" target="_blank" class="social-media-item facebook-follow small valign-center-wrapper">
+                                <div class="flex-item"><i class="figure facebook f icon"></i></div>
+                            </a>
+                            <a href="https://www.instagram.com/p/CoR6EuZrQLW/" class="social-media-item social-media-image small" target="_blank">
+                                <div class="image-holder" style="background-image:url(images/0041194_GizBerjer_640x640-100.jpeg)" alt="{{caption}}"></div>
+                            </a>
+                            <a href="https://twitter.com/dogtas" title="Doğtaş Online Twitter" target="_blank" class="social-media-item twitter-follow small valign-center-wrapper">
+                                <div class="flex-item"><i class="figure twitter icon"></i></div>
+                            </a>
+                            <a href="https://www.instagram.com/p/CFZP51Hpya9/" class="social-media-item social-media-image small" target="_blank">
+                                <div class="image-holder" style="background-image:url(images/0033677_brita_koltuk_255x240.jpeg)" alt="{{caption}}"></div>
+                            </a>
+                            <a href="https://www.instagram.com/dogtas" title="Doğtaş Online Instagram" target="_blank" class="social-media-item instagram-follow small valign-center-wrapper">
+                                <div class="flex-item"><i class="figure instagram icon"></i></div>
+                            </a>
+                            <a href="https://www.instagram.com/p/CFWkRgEJIFe/" class="social-media-item social-media-image small" target="_blank">
+                                <div class="image-holder" style="background-image:url(images/0020331_4-3.jpeg)" alt="{{caption}}"></div>
+                            </a>
+                        </div>
+                        <div class="social-video-item">
+                            <a href="https://www.youtube.com/watch?v=e-q7CruoJ4I" target="_blank" class="image-holder valign-center-wrapper" style="background-image:url(&#x27;images/0033678_Nicole%20film.jpeg&#x27;)">
+                                <div class="flex-item"><span class="video-play-action"> <img loading="lazy" alt="play" class="ui fluid image" src="fonts/play-icon-white.svg"> </span></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container small-container shadow-container white-bg-container newsletter-container">
+                <div class="block">
+                    <div class="content-wrapper ui grid">
+                        <div class="stretched row">
+                            <div class="newsletter-box eight wide computer sixteen wide column">
+                                <div class="valign-center-wrapper">
+                                    <div class="flex-item">
+                                        <h2 class="newsletter-title">Doğtaş ayrıcalıkları ve fırsatları ile ilgili e-posta almak ister misiniz ?</h2>
+                                        <div class="input-holder">
+                                            <div class="newsletter-loading">
+                                                <div class="newsletter-loading-body valign-center-wrapper">
+                                                    <div class="flex-item"><img loading="lazy" alt="loading" class="newsletter-loading-icon" src="fonts/small-loader.svg"> <span class="newsletter-loading-text">Lütfen bekleyiniz.</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="newsletter-result">
+                                                <div class="newsletter-result-body valign-center-wrapper">
+                                                    <div class="flex-item"><span class="newsletter-result-text">Lütfen bekleyiniz.</span></div>
+                                                </div>
+                                            </div>
+                                            <input class="newsletter-input" spellcheck="false" placeholder="E-Posta Adresinizi Yazınız" type="email" id="NewsletterEmail" name="NewsletterEmail"> <span class="newsletter-button"><i class="flex-item paper plane icon"></i></span>
+                                        </div>
+                                        <div class="checkbox-holder">
+                                            <div class="ui checkbox"><input class="newsletter-checkbox" type="checkbox" tabindex="0"> <label class="newsletter-label"><a href="https://www.dogtas.narmedia.az/kisisel-veriler-politikasi" target="_blank" class="newsletter-text">Kişisel Veri Kanunu yükümlülüklerini kabul ediyorum.</a></label></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="common-detail extensile-detail">
+            <div class="container shadow-container white-bg-container medium-container">
+                <div class="block">
+                    <div class="title-area">
+                        <h2 class="title">Doğtaş</h2>
+                    </div>
+                    <div style="height:400px;overflow-x:auto">
+                        <div class="common-content-holder zero-padding">
+                            <h2>DOĞTAŞ</h2>
+                            <p>Yaşam alanlarınızı özenle güzelleştiren <strong>Doğtaş mobilya</strong>; geniş ürün seçenekleri, şık tasarımları ve kalitesi ile fark yaratıyor. Evlerden ofislere, genç odalarından çalışma odalarına kadar pek çok alanda kullanıma uygun mobilya ve aksesuar çeşitleri ile Doğtaş’ta aradığınız her şeyi bulmanız mümkün.</p>
+                            <p>Doğtaş’ın dekorasyonda modayı yakından takip eden tasarımları size uzun yıllar eşlik edecek. Kaliteli yapıları ile Doğtaş mobilyaları kullandığınız yaşam alanlarında kendinizi hep huzurlu, hep tarz hissetmenin tadını çıkarabilirsiniz.</p>
+                            <h2>Köşe Takımlarında Gerçek Konforu Doğtaş ile Keşfedin</h2>
+                            <p>Tüm evlerin vazgeçilmezi haline gelen köşe takımları konusunda Doğtaş konforlu ve şık tasarımları ile öne çıkıyor. Farklı dokular ve stillerin bir araya getirildiği Doğtaş köşe takımı modelleri evinize ve diğer tüm yaşam alanlarına estetik katıyor.</p>
+                            <p>Sağlam yapıları ve kaliteli malzemeleri ile de kullanıcıların beğenisini toplayan Doğtaş köşe takımı modelleri uzun yıllar kullanım için son derece uygun. Eviniz ya da iş yeriniz için tercih edebileceğiniz bu ürünlerle yaşam alanlarınız hem çok rahat hem göz alıcı.</p>
+                            <h2>Doğtaş Koltuk Takımı Seçenekleri ile Evin Yıldızı Oturma Odaları</h2>
+                            <p>Evde en çok zaman geçirilen alanlardan biri oturma odaları. Doğtaş koltuk takımları ile bu alanlarda şık ve son derece konforlu bir ortam yaratmak mümkün. Farklı kumaş ve malzeme seçimlerinin yanı sıra Doğtaş koltuk takımları size geniş bir tasarım skalası da sunuyor. Senenin moda renkleri ve desenlerinin kullanıldığı koltuk takımları ile evlerin yıldızı oturma odaları oluyor.</p>
+                            <p>Doğtaş koltuk takımı modelleri arasında günlük yaşam alanları için daha spor seçenekler bulunuyor. Bunun yanı sıra salonlara ve misafir odalarına uygun daha gösterişli takımlar da koleksiyonda yer alıyor. Ergonomik tasarımları ile size kusursuz konfor sunan koltuk takımları ile televizyon keyfi yapmak, ayaklarınızı uzatıp dinlenmek ya da sevdiklerinizi ağırlamak her zamankinden çok daha keyifli.</p>
+                            <h2>Film ve Dizi İzlemenin Tadı Doğtaş TV Ünitesi ile Çıkar</h2>
+                            <p>Konforlu bir koltuk takımının en iyi partneri şık ve kullanışlı bir TV ünitesi<strong>. </strong>Doğtaş TV ünitesi modelleri de yaşam alanlarınıza estetik ve işlevsellik katmak için en iyi seçenekler arasında yer alıyor. Modern, klasik ya da retro çizgileri ile ön plana çıkan Doğtaş TV ünitesi modelleri tüm dekorasyon akımları ile uyum yakalayacak çeşitliliğe sahip.</p>
+                            <p>Country tarzını yansıtan ya da avangart dekorasyon anlayışını tamamlayan pek çok seçeneği Doğtaş TV Ünitesi koleksiyonunda bulmak mümkün. TV ünitenizi seçip dekorasyona imzanızı attıktan sonra ise yapılacak tek şey dizi ve filmlerin tadını çıkarmak!</p>
+                            <h2>Yemek Odalarına Doğtaş Takımlar ile Zarif Bir Dokunuş</h2>
+                            <p>Yemek odalarının şıklığı ve rahatlığı hem ev ahalisi hem konuklar için oldukça önemli bir unsur. Uzun süren yemek sohbetlerini tarzı ve estetik görünümleri ile tamamlayan Doğtaş yemek odası takımları ise size son derece geniş seçenekler sunuyor.</p>
+                            <p>Doğtaş’ta ahşap görünümlerin ağırlıkta olduğu koleksiyonlar başı çekiyor. Buna ek olarak metal dokunuşların yer aldığı modern çeşitler de Doğtaş yemek odası modelleri arasında sizi bekliyor. Ayrıca yemek saatlerini güzelleştirmek için Doğtaş yemek masası ve sandalye takımları da en etkili seçimler arasında yer alıyor. Salon takımlarına çok yakışacak ve zevkinize göre özelleştirebileceğiniz bu yemek takımları sayesinde günün her saati yemek saati olsun isteyeceksiniz.</p>
+                            <h2>Doğtaş Yatak Odası Takımları ile Gününüz Güzelleşsin</h2>
+                            <p>Yatak odası dekorasyonu uyku kalitenizi etkileyebilir. Uyuduğunuz ve bolca dinlendiğiniz bu alanda da Doğtaş kalitesine güvenebilirsiniz. Birbirinden şık modellerin yer aldığı Doğtaş yatak odası koleksiyonunda dekorasyon zevkinize ve kendi tarzınıza en yakışan ürünü bulmanız oldukça kolay.</p>
+                            <p>Ahşap tonlarının asaletini siyah ve beyazın modern dokunuşunu keşfedeceğiniz Doğtaş yatak odası takımları ile geceleri huzurlara uyuyacak, yeni günlere hep mutlulukla başlayacaksınız. Ayrıca birbirinden yaratıcı tasarımların yer aldığı Doğtaş genç odası takımlarını da incelemeyi unutmayın.</p>
+                            <h2>Doğtaş Genç Odası Takımları ile Kendilerine Ait Şık Bir Alan Yaratın</h2>
+                            <p>Gençlerin sahip oldukları özel alanların karakterlerine ve hayal güçlerine katkı sağladığı yadsınamaz bir gerçek. Özel olarak işlevine ve estetiğine dikkat edilerek hazırlanan Doğtaş genç odası takımları ile evde keyifle vakit geçirebilecekleri, kendilerine ait bir alan yaratabilirsiniz.</p>
+                            <p>Modern ve fonksiyonellikleri ile ön plana çıkan Doğtaş genç odası takımları, her zevke ve dekorasyon stiline uygun tasarımları ile gençler için ideal. Farklı ürünleri birleştirme imkanı ile genç odası tasarım fikirlerinizi başarılı bir şekilde hayata geçirebilirsiniz.</p>
+                            <h2>Bahçenizi Canlandırmak Doğtaş Garden ile Çok Basit</h2>
+                            <p>Günün stresini atmayı ve sevdiklerinizle keyifli anlar geçirmeyi dilediğiniz bahçeleriniz için seçeceğiniz mobilyalarınız da evinizdeki mobilyalarınız gibi konforlu olmalıdır. Uzun yıllar süren dayanıklılığa sahip Doğtaş bahçe mobilyaları sahip oldukları estetik ve rahatlık sayesinde bahçeniz için ideal.</p>
+                            <p>Aileniz ve dostlarınızla yapacağınız keyifli sohbetlere, leziz yemeklere eşlik edecek olan Doğtaş Garden mobilyaları, salıncaktan oturma gruplarına birçok farklı seçeneğe sahip.</p>
+                            <h2>Evinizi Doğtaş Home ile Tamamlayın</h2>
+                            <p>Doğtaş Home, tamamlayıcı ürünleri ile evinizdeki her bir yaşam alanı için ideal aksesuarlara sahip olmanızı sağlıyor. Gerçekleştireceğiniz dekorasyon fikirlerine tamamlarken muhteşem aksesuarlarla son bir dokunuş yaparak bütünlük sağlayabilirsiniz. Tablolardan mumluklara, halılardan dekoratif aynalara birçok seçenek sizleri bekliyor.</p>
+                            <p>Siz de evinize ve diğer tüm yaşam alanlarınıza kusursuz bir dokunuş yapmak için Doğtaş mobilyaları tercih edin. Evinizin tüm alanlarını özenle güzelleştiren Doğtaş’ın kaliteli ve estetik dünyasına adım atın!</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>window.criteo_q = window.criteo_q || []; var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d"; window.criteo_q.push({ event: "setAccount", account: 81572 }, { event: "setEmail", email: null }, { event: "setZipcode", zipcode: "" }, { event: "setSiteType", type: deviceType }, { event: "viewHome" })</script><script>geralt.track("pageview", { category: "home", label: "homepage" })</script>
+    </main>
+  

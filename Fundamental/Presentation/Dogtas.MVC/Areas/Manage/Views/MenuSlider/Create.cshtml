@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Manage/Views/Shared/_Layout.cshtml";
+}
+
+@model MenuSliderCreateDto
+
+<form method="post" enctype="multipart/form-data">
+
+    <div>
+        <label asp-for="Name" class="form-label">@localizer["Name"]</label>
+        <input class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Icon" class="form-label">@localizer["Icon"]</label>
+        <input class="form-control" asp-for="Icon">
+        <span class="text-danger" asp-validation-for="Icon"></span>
+    </div>
+
+    <div style="margin:15px 0px">
+        <label asp-for="LanguageId" class="form-label">@localizer["Language"]</label>
+        <select class="form-control languageSelect" asp-for="LanguageId" asp-items="@new SelectList((List<Language>)ViewBag.Languages,nameof(Language.Id),nameof(Language.Name))"></select>
+        <span class="text-danger" asp-validation-for="LanguageId"></span>
+    </div>
+
+    <div style="margin:15px 0px">
+        <label class="form-label">@localizer["Category"]</label>
+        <select class="form-control categorySelect" asp-items="@new SelectList((List<Category>)ViewBag.Categories,nameof(Category.Id),nameof(Category.Name))"></select>
+    </div>
+
+    <div style="margin:15px 0px">
+        <label asp-for="SubCategoryId" class="form-label">@localizer["SubCategory"]</label>
+        <select class="form-control subCategorySelect" asp-for="SubCategoryId" asp-items="@new SelectList((List<SubCategory>)ViewBag.SubCategories,nameof(SubCategory.Id),nameof(SubCategory.Name))"></select>
+        <span class="text-danger" asp-validation-for="SubCategoryId"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-outline-dark my-3">@localizer["Submit"]</button>
+</form>
+
+@section Scripts{
+    <script src="~/Manage/assets/js/manage.js"></script>
+}

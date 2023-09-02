@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Manage/Views/Shared/_Layout.cshtml";
+}
+
+@model CollectionCreateDto
+
+
+<form method="post" enctype="multipart/form-data">
+
+    <div>
+        <label asp-for="Name" class="form-label">@localizer["Name"]</label>
+        <input class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+
+    @*<div style="margin:15px 0px;">
+        <label asp-for="LanguageId" class="form-label">@localizer["Language"]</label>
+        <select class="form-control" asp-for="LanguageId" asp-items="@new SelectList((List<Language>)ViewBag.Languages,nameof(Language.Id),nameof(Language.Name))"></select>
+        <span class="text-danger" asp-validation-for="LanguageId"></span>
+    </div>*@
+
+    <button type="submit" class="btn btn-outline-dark my-3">@localizer["Submit"]</button>
+</form>
+
+
+
+@section Scripts{
+
+    <script src="~/Manage/assets/js/manage.js"></script>
+}

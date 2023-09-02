@@ -1,0 +1,198 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Manage/Views/Shared/_Layout.cshtml";
+	int rowCount = 1;
+}
+
+@model PagenatedListDto<StorePalacedType>
+
+
+@Html.Partial("_FilterPartial")
+
+<div class="table-responsive text-nowrap">
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>@localizer["Name"]</th>
+				<th>@localizer["Created Date"]</th>
+				<th>@localizer["Deleted Status"]</th>
+				<th>@localizer["Language"]</th>
+				<th>@localizer["Actions"]</th>
+			</tr>
+		</thead>
+		<tbody class="table-border-bottom-0">
+
+			@if (Model.Count() != 0)
+			{
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td> @((Model.PageIndex - 1) * Model.PageSize + rowCount) </td>
+						<td> @item.Name </td>
+						<td> @item.CreatedAt.ToString("dd:mm:yyyy HH:mm") </td>
+						<td> @(item.IsDeleted ? localizer["Deleted"] : localizer["Not Deleted"]) </td>
+						<td> @item.Language.Name </td>
+						<td>
+							@if (item.IsDeleted)
+							{
+								<!-- Silinənlər üçün "RECOVER" bağlantısı -->
+								@*<a asp-action="Recover" asp-route-id="@item.Id"><i class='bx bx-revision'></i></a>*@
+								<a asp-action="Recover" asp-route-id="@item.Id"
+					   data-id="@item.Id" class="recover-link"><i class='bx bx-revision'></i></a>
+							}
+							else
+							{
+								<!-- Silinməmişlər üçün "Actions" bağlantıları -->
+								<a asp-action="Edit" asp-route-id="@item.Id"><i class="bx bx-edit-alt me-1 text-black"></i></a>
+								<a asp-action="AddLanguage" asp-route-objectId="@item.ObjectId"><i class='bx bx-flag text-black'></i></a>
+								<a asp-action="Delete" asp-route-id="@item.Id" class="delete-link"><i class='bx bxs-message-alt-x text-black'></i></a>
+							}
+						</td>
+						@*<td>
+							<a asp-action="Edit" asp-route-id="@item.Id"><i class="bx bx-edit-alt me-1 text-black"></i></a>
+							<a asp-action="AddLanguage" asp-route-objectId="@item.ObjectId"><i class='bx bx-flag text-black'></i></a>
+							<a asp-action="Delete" asp-route-id="@item.Id"><i class='bx bxs-message-alt-x text-black'></i></a>
+							</td>*@
+					</tr>
+					rowCount++;
+				}
+			}
+
+		</tbody>
+	</table>
+</div>
+
+
+@if (Model.Count() != 0)
+{
+	@Html.Partial("_PagenationPartial",Model.PagenationDto)
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.js"></script>
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		const deleteLinks = document.querySelectorAll(".delete-link");
+		const recoverLinks = document.querySelectorAll(".recover-link");
+
+		deleteLinks.forEach(link => {
+			link.addEventListener("click", function (event) {
+				event.preventDefault();
+				const itemId = this.getAttribute("data-id");
+
+				Swal.fire({
+					title: 'Are you sure?',
+					text: "You won't be able to revert this!",
+					icon: 'warning',
+					showCancelButton: true,
+					confirmButtonColor: '#3085d6',
+					cancelButtonColor: '#d33',
+					confirmButtonText: 'Yes, delete it!'
+				}).then((result) => {
+					if (result.isConfirmed) {
+						// Perform delete action using AJAX
+						$.ajax({
+							url: this.getAttribute("href"),
+							type: "POST",
+							success: function (response) {
+								Swal.fire('Deleted!', response.message, 'success');
+								// Hide the deleted row
+								const deletedRow = link.closest("tr");
+								deletedRow.style.display = "none";
+							},
+							error: function (error) {
+								Swal.fire('Error!', 'An error occurred.', 'error');
+							}
+						});
+					}
+				});
+			});
+		});
+
+		recoverLinks.forEach(link => {
+			link.addEventListener("click", function (event) {
+				event.preventDefault();
+				const itemId = this.getAttribute("data-id");
+
+				Swal.fire({
+					title: 'Are you sure?',
+					text: "You are about to recover this item.",
+					icon: 'info',
+					showCancelButton: true,
+					confirmButtonColor: '#3085d6',
+					cancelButtonColor: '#d33',
+					confirmButtonText: 'Yes, recover it!'
+				}).then((result) => {
+					if (result.isConfirmed) {
+						// Perform recover action using AJAX
+						$.ajax({
+							url: this.getAttribute("href"),
+							type: "POST",
+							success: function (response) {
+								Swal.fire('Recovered!', response.message, 'success');
+								// Hide the recovered row
+								const recoveredRow = link.closest("tr");
+								recoveredRow.style.display = "none";
+							},
+							error: function (error) {
+								Swal.fire('Error!', 'An error occurred.', 'error');
+							}
+						});
+					}
+				});
+			});
+		});
+	});
+</script>
+
+<script>
+	   document.addEventListener("DOMContentLoaded", function() {
+		const navbar = document.getElementById("layout-navbar");
+
+		const initialNavbarStyles = {
+			background: navbar.style.background,
+			padding: navbar.style.padding,
+			boxShadow: navbar.style.boxShadow
+		};
+
+		const resetNavbarStyles = () => {
+			navbar.style.background = initialNavbarStyles.background;
+			navbar.style.padding = initialNavbarStyles.padding;
+			navbar.style.boxShadow = initialNavbarStyles.boxShadow;
+		};
+
+		const updateNavbarStyles = () => {
+			navbar.style.background = "#FF0000";
+			navbar.style.padding = "10px";
+			navbar.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.1)";
+		};
+
+		const handleDeleteClick = () => {
+			resetNavbarStyles();
+		};
+
+		const handleRecoverClick = () => {
+			updateNavbarStyles();
+		};
+
+		const deleteLinks = document.querySelectorAll(".delete-link");
+		const recoverLinks = document.querySelectorAll(".recover-link");
+
+		deleteLinks.forEach(link => {
+			link.addEventListener("click", function(event) {
+				event.preventDefault();
+				handleDeleteClick();
+			});
+		});
+
+		recoverLinks.forEach(link => {
+			link.addEventListener("click", function(event) {
+				event.preventDefault();
+				handleRecoverClick();
+			});
+		});
+	});
+
+</script>

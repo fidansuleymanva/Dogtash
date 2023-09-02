@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model CategoryViewModel
+
+<main class="main-body">
+    <section class="common-hero-heading" style="background-image:url('@Url.Content(Model.Category.BackgroundImage)')">
+        <div class="container medium-container">
+            <div class="block">
+                <div class="content-wrapper">
+                    <h1 class="title">@Model.Category.Name</h1>
+                    <p class="description">@Model.Category.Title</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="common-breadcrumb">
+        <div class="container medium-container">
+            <div class="block">
+                <ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb-list">
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item action">
+                        <a itemprop="item" class="page-name" href="/"> <span itemprop="name">Anasayfa</span> </a>
+                        <meta itemprop="position" content="1">
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item current-page">
+                        <span itemprop="name" itemid="/oturma-grubu" class="page-name">OTURMA GRUBU</span>
+                        <meta itemprop="position" content="2">
+                        <meta itemprop="url" content="/oturma-grubu">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="common-detail extensile-detail">
+        <div class="container shadow-container white-bg-container medium-container">
+            <div class="block">
+                <div class="title-area">
+                    <h2 class="title">@Model.Category.Name</h2>
+                </div>
+                <div style="height:300px;overflow-x:auto">
+                    <div class="common-content-holder zero-padding">
+                        @Html.Raw(Model.Category.Description)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="common-listing">
+        <div class="container medium-container">
+            <div class="block">
+                <div class="category-listing-wrapper">
+
+                    @if (Model.Category.SubCategories != null)
+                    {
+                        @foreach (var item in Model.Category.SubCategories)
+                        {
+                            <a asp-action="Index" asp-controller="SubCategory" asp-route-id="@item.Id" class="category-box" alt="@item.Name" title="@item.Name">
+                                <div class="category-image-holder"><img loading="lazy" class="category-image" src="@item.PosterImage" alt="@item.Name"></div>
+                                <div class="category-content">
+                                    <div class="category-name">@item.Name</div>
+                                    <div class="category-short-description">@item.Title</div>
+                                </div>
+                            </a>
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

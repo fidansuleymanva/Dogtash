@@ -1,0 +1,40 @@
+﻿
+
+@model PagenationDto
+
+<nav aria-label="Page navigation example" class="d-flex justify-content-center align-items-center">
+    <ul class="pagination">
+        @if (Model.HasPrev)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="index" asp-route-page="@(Model.PageIndex - 1)" asp-route-select="@ViewBag.select" asp-route-word="@TempData["Word"]" aria-label="Previous">
+                    <span style="color:black" aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        }
+        @for (int i = 1; i <= Model.TotalPage; i++)
+        {
+            if (Model.PageIndex - 1 == i)
+            {
+                <li class="page-item"><a class="page-link" asp-action="index" asp-route-page="@i" asp-route-select="@ViewBag.select" asp-route-word="@TempData["Word"]">@i</a></li>
+            }
+
+            if (Model.PageIndex == i)
+            {
+                <li class="page-item active"><a class="page-link" style=" z-index: 3; color: #fff; background-color: black !important; border-color: black !important;" asp-action="index" asp-route-page="@i" asp-route-select="@ViewBag.select" asp-route-word="@TempData["Word"]">@i</a></li>
+            }
+            if (Model.PageIndex + 1 == i)
+            {
+                <li class="page-item"><a class="page-link" asp-action="index" asp-route-page="@i" asp-route-select="@ViewBag.select" asp-route-word="@TempData["Word"]">@i</a></li>
+            }
+        }
+        @if (Model.HasNext)
+        {
+            <li class="page-item">
+                <a class="page-link" asp-action="index" asp-route-page="@(Model.PageIndex + 1)" asp-route-select="@ViewBag.select" asp-route-word="@TempData["Word"]" aria-label="Next">
+                    <span style="color:black" aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        }
+    </ul>
+</nav>

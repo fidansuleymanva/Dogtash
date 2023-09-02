@@ -1,0 +1,1193 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Dogtas.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Dogtas.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\avatars\\585e4bf3cb11b227491c339a.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\avatars\\585e4bf3cb11b227491c339a.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\backgrounds\\Dogtas.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\backgrounds\\Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\favicon\\Dogtas.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\favicon\\Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\img\\logo-colored.svg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\img\\logo-colored.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\editor.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\editor.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\manage.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\manage.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\sweetalert.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\Manage\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\Manage\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\css\\OneSignalSDKStyles.css",
+      "PackagePath": "staticwebassets\\css\\OneSignalSDKStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\css\\cookieconsent.min22.css",
+      "PackagePath": "staticwebassets\\css\\cookieconsent.min22.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\css\\sliq3-to-nauuzgnjnqpq5y0svtzucb-teh-vhdl2b4-v3.0002.css",
+      "PackagePath": "staticwebassets\\css\\sliq3-to-nauuzgnjnqpq5y0svtzucb-teh-vhdl2b4-v3.0002.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\brand-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\brand-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\brand-icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\brand-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\brand-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\brand-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\brand-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\brand-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\brand-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\brand-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\facebook-icon.svg",
+      "PackagePath": "staticwebassets\\fonts\\facebook-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\instagram-icon.svg",
+      "PackagePath": "staticwebassets\\fonts\\instagram-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-black.woff",
+      "PackagePath": "staticwebassets\\fonts\\intro-black.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-black.woff2",
+      "PackagePath": "staticwebassets\\fonts\\intro-black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\intro-bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\intro-bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-book.woff",
+      "PackagePath": "staticwebassets\\fonts\\intro-book.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-book.woff2",
+      "PackagePath": "staticwebassets\\fonts\\intro-book.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-light.woff",
+      "PackagePath": "staticwebassets\\fonts\\intro-light.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\intro-light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\intro-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\intro-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-thin.woff",
+      "PackagePath": "staticwebassets\\fonts\\intro-thin.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\intro-thin.woff2",
+      "PackagePath": "staticwebassets\\fonts\\intro-thin.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\logo-colored.svg",
+      "PackagePath": "staticwebassets\\fonts\\logo-colored.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\logo-white.svg",
+      "PackagePath": "staticwebassets\\fonts\\logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-black-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-black-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-black-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-black-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-black.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-black.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-black.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-bold-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-bold-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-bold-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-bold-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extrabold-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extrabold-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extrabold-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extrabold-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extrabold.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extrabold.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extrabold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extrabold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extralight-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extralight-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extralight-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extralight-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extralight.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extralight.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-extralight.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-extralight.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-light-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-light-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-light-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-light-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-light.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-light.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-medium-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-medium-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-medium-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-medium-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-semibold-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-semibold-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-semibold-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-semibold-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-semibold.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-semibold.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-semibold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-semibold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-thin-italic.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-thin-italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-thin-italic.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-thin-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-thin.woff",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-thin.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\montserrat-thin.woff2",
+      "PackagePath": "staticwebassets\\fonts\\montserrat-thin.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\outline-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\outline-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\outline-icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\outline-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\outline-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\outline-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\outline-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\outline-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\outline-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\outline-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\play-icon-white.svg",
+      "PackagePath": "staticwebassets\\fonts\\play-icon-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\small-loader.svg",
+      "PackagePath": "staticwebassets\\fonts\\small-loader.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\twitter-icon.svg",
+      "PackagePath": "staticwebassets\\fonts\\twitter-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\fonts\\youtube-icon.svg",
+      "PackagePath": "staticwebassets\\fonts\\youtube-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\cookieconsent.min.js",
+      "PackagePath": "staticwebassets\\js\\cookieconsent.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\floating-carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\floating-carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\geralt.min.js",
+      "PackagePath": "staticwebassets\\js\\geralt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\instafeed.min.js",
+      "PackagePath": "staticwebassets\\js\\instafeed.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\jquery.lazy.js",
+      "PackagePath": "staticwebassets\\js\\jquery.lazy.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\public.ajaxcart.js",
+      "PackagePath": "staticwebassets\\js\\public.ajaxcart.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\public.common.js",
+      "PackagePath": "staticwebassets\\js\\public.common.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\scripts.min.js",
+      "PackagePath": "staticwebassets\\js\\scripts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\semantic.min.js",
+      "PackagePath": "staticwebassets\\js\\semantic.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\js\\twitterFetcher_min.js",
+      "PackagePath": "staticwebassets\\js\\twitterFetcher_min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\01bff215-ccf5-47d8-86d7-a213d81f5c06c011c8cae8cdcb9cabf98559cec156e1.webp",
+      "PackagePath": "staticwebassets\\uploads\\categories\\01bff215-ccf5-47d8-86d7-a213d81f5c06c011c8cae8cdcb9cabf98559cec156e1.webp"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\1d21b892-37e9-48df-bf11-6abe1be6a711fc85dc5e93e84ba5db6852e8d1861e7d.webp",
+      "PackagePath": "staticwebassets\\uploads\\categories\\1d21b892-37e9-48df-bf11-6abe1be6a711fc85dc5e93e84ba5db6852e8d1861e7d.webp"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\2079d50f-c8e7-410e-ba22-6f6e0235b073fc85dc5e93e84ba5db6852e8d1861e7d.webp",
+      "PackagePath": "staticwebassets\\uploads\\categories\\2079d50f-c8e7-410e-ba22-6f6e0235b073fc85dc5e93e84ba5db6852e8d1861e7d.webp"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\2ed33703-ab68-47bd-b340-dcc26fcea2adfc85dc5e93e84ba5db6852e8d1861e7d.webp",
+      "PackagePath": "staticwebassets\\uploads\\categories\\2ed33703-ab68-47bd-b340-dcc26fcea2adfc85dc5e93e84ba5db6852e8d1861e7d.webp"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\4e8cd900-358a-4391-8eb7-6c8bf013284eBEDDING 130623 MAIN.png",
+      "PackagePath": "staticwebassets\\uploads\\categories\\4e8cd900-358a-4391-8eb7-6c8bf013284eBEDDING 130623 MAIN.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\6cc21255-6073-45db-97e9-4f64fcc79bad0012650_oturma-grubu.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\6cc21255-6073-45db-97e9-4f64fcc79bad0012650_oturma-grubu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\7b159777-f00c-44c2-b373-a983acccfa710012574_loft-koltuk-takimi.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\categories\\7b159777-f00c-44c2-b373-a983acccfa710012574_loft-koltuk-takimi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\7d5dcd53-2339-4602-a8f5-c9d2b651e10ec011c8cae8cdcb9cabf98559cec156e1.webp",
+      "PackagePath": "staticwebassets\\uploads\\categories\\7d5dcd53-2339-4602-a8f5-c9d2b651e10ec011c8cae8cdcb9cabf98559cec156e1.webp"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\d71b42ec-fec6-4e5e-8eec-5f8556ac282dc011c8cae8cdcb9cabf98559cec156e1.webp",
+      "PackagePath": "staticwebassets\\uploads\\categories\\d71b42ec-fec6-4e5e-8eec-5f8556ac282dc011c8cae8cdcb9cabf98559cec156e1.webp"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\categories\\f0f7d85d-a1f2-4f87-a828-1f3f17c3e39aBEDDING 130623 MAIN.png",
+      "PackagePath": "staticwebassets\\uploads\\categories\\f0f7d85d-a1f2-4f87-a828-1f3f17c3e39aBEDDING 130623 MAIN.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\01171164-d88b-4482-a872-ba0074188437Dogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\01171164-d88b-4482-a872-ba0074188437Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\04077775-3ad1-49ce-ae8c-ea9d7ecc7b7f2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\04077775-3ad1-49ce-ae8c-ea9d7ecc7b7f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\0ce8bec1-71ef-4256-87af-5bac6ea5ea281.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\0ce8bec1-71ef-4256-87af-5bac6ea5ea281.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\23d06909-cec8-4679-ae44-d4e4de86bc92Dogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\23d06909-cec8-4679-ae44-d4e4de86bc92Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\27ff7117-fbdc-4c1c-884f-ae5d265bd86d18.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\27ff7117-fbdc-4c1c-884f-ae5d265bd86d18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\2da22109-d372-42f5-9f67-a180ff65926a6.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\2da22109-d372-42f5-9f67-a180ff65926a6.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\30423260-d9c5-4628-b968-547a0e2e7321Untitled design (6).png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\30423260-d9c5-4628-b968-547a0e2e7321Untitled design (6).png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\321ba327-0db3-4577-bc2f-9d8d815226771.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\321ba327-0db3-4577-bc2f-9d8d815226771.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\3610f0a1-852f-48ad-b4bc-456160edc38dDogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\3610f0a1-852f-48ad-b4bc-456160edc38dDogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\38fd66d0-0b12-45b1-9d65-db5c99e14d8cDogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\38fd66d0-0b12-45b1-9d65-db5c99e14d8cDogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\39048b3a-1ba3-4fea-9a9f-2e0f894f99e81.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\39048b3a-1ba3-4fea-9a9f-2e0f894f99e81.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\3ffcb23a-0669-4cc1-9e6b-cbe859dbe2eb2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\3ffcb23a-0669-4cc1-9e6b-cbe859dbe2eb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\468e082e-31cc-49e0-9cb1-b449474b89b61.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\468e082e-31cc-49e0-9cb1-b449474b89b61.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\4734608a-055c-453e-9bee-e5a011d70ef21.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\4734608a-055c-453e-9bee-e5a011d70ef21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\4d0d7b2a-fcd3-48c0-952c-20ffd6b89704Untitled design (2).png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\4d0d7b2a-fcd3-48c0-952c-20ffd6b89704Untitled design (2).png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\50a294d7-2fb4-4d53-a9e9-e70445856c1fDogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\50a294d7-2fb4-4d53-a9e9-e70445856c1fDogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\588bc5b0-829f-4a20-abbd-57a85a0b09f3Dogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\588bc5b0-829f-4a20-abbd-57a85a0b09f3Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\5b60b151-f9da-4100-94cc-ce60b130cfbc2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\5b60b151-f9da-4100-94cc-ce60b130cfbc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\5defd3f5-ef8b-48a2-81ed-193cc24b34df19.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\5defd3f5-ef8b-48a2-81ed-193cc24b34df19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\76fa5b9e-50df-4969-990d-c7fb06548cf42.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\76fa5b9e-50df-4969-990d-c7fb06548cf42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\77b0cfa2-ae71-48aa-9845-b76f1b9f848aDogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\77b0cfa2-ae71-48aa-9845-b76f1b9f848aDogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\78605309-6492-4560-a082-5313b8f23c24Dogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\78605309-6492-4560-a082-5313b8f23c24Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\89d66645-c16b-4617-8e59-804c5eeaf413Dogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\89d66645-c16b-4617-8e59-804c5eeaf413Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\8b719a08-a4b4-46c8-b676-dfb5910724682.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\8b719a08-a4b4-46c8-b676-dfb5910724682.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\964ac895-4f45-42b9-856e-72c03400e501Dogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\964ac895-4f45-42b9-856e-72c03400e501Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\aba2ce5d-b9bd-496b-a082-f43a69a384d9Untitled design (4).png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\aba2ce5d-b9bd-496b-a082-f43a69a384d9Untitled design (4).png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\b1f922fc-3d6b-41dd-8a6c-28b6d8d6a49b1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\b1f922fc-3d6b-41dd-8a6c-28b6d8d6a49b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\bcfa568d-8e18-4b86-9aa8-f0c1542ea6f26.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\bcfa568d-8e18-4b86-9aa8-f0c1542ea6f26.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\c49dbfb8-0623-486b-b8c4-99d0cb64df62Dogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\c49dbfb8-0623-486b-b8c4-99d0cb64df62Dogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\cd9340d5-0ecd-4bd7-a0e0-3f067aaf6b085.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\cd9340d5-0ecd-4bd7-a0e0-3f067aaf6b085.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\ceafe67f-7907-4f40-ae94-8980ee2265baUntitled design (5).png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\ceafe67f-7907-4f40-ae94-8980ee2265baUntitled design (5).png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\d2f52b79-e1ca-4e43-bbc5-b82e399499dcDogtas.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\d2f52b79-e1ca-4e43-bbc5-b82e399499dcDogtas.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\d63bd928-25a7-4efb-9b74-b92083553c4d18.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\d63bd928-25a7-4efb-9b74-b92083553c4d18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\da56a617-33a1-4d36-9342-c2b4d55411db1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\da56a617-33a1-4d36-9342-c2b4d55411db1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\e0e1a516-1779-4d2e-86e9-f4e60bcaa31f1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\e0e1a516-1779-4d2e-86e9-f4e60bcaa31f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\e27b8ace-4819-4255-8ff9-f0dfaca30583Untitled design.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\e27b8ace-4819-4255-8ff9-f0dfaca30583Untitled design.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\edca6950-f4ca-4ae7-9bee-87aea943d8051.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\edca6950-f4ca-4ae7-9bee-87aea943d8051.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\f7b108ce-748f-4bda-9945-aa8b6a984e8d1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\settings\\f7b108ce-748f-4bda-9945-aa8b6a984e8d1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\settings\\fb43b2c7-be45-465c-b357-babb9a5cc5c46.png",
+      "PackagePath": "staticwebassets\\uploads\\settings\\fb43b2c7-be45-465c-b357-babb9a5cc5c46.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\sliders\\16922793-4355-4453-b8a7-e4f6b543c099BEDDING 130623 MAIN.png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\16922793-4355-4453-b8a7-e4f6b543c099BEDDING 130623 MAIN.png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\sliders\\36244253-25d9-495f-a94a-bdb6a46f5c59fc85dc5e93e84ba5db6852e8d1861e7d (1).png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\36244253-25d9-495f-a94a-bdb6a46f5c59fc85dc5e93e84ba5db6852e8d1861e7d (1).png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\sliders\\9d2c4e01-0d18-45c5-b648-d013cb997b6cc011c8cae8cdcb9cabf98559cec156e1 (1).png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\9d2c4e01-0d18-45c5-b648-d013cb997b6cc011c8cae8cdcb9cabf98559cec156e1 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\sliders\\bf8a8044-de74-4d8e-b877-a8e90ffda66c0043818_FRAME-SLIDER.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\bf8a8044-de74-4d8e-b877-a8e90ffda66c0043818_FRAME-SLIDER.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\SWIFT\\Desktop\\aa\\Dogtas\\Fundamental\\Presentation\\Dogtas.MVC\\wwwroot\\uploads\\sliders\\f9f977f0-eca8-4f13-b686-04512c145547BEDDING 130623 MAIN.png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\f9f977f0-eca8-4f13-b686-04512c145547BEDDING 130623 MAIN.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Dogtas.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Dogtas.MVC.props",
+      "PackagePath": "build\\Dogtas.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Dogtas.MVC.props",
+      "PackagePath": "buildMultiTargeting\\Dogtas.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Dogtas.MVC.props",
+      "PackagePath": "buildTransitive\\Dogtas.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

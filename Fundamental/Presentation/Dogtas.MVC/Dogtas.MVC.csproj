@@ -1,0 +1,116 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Manage\Models\**" />
+    <Content Remove="Areas\Manage\Models\**" />
+    <EmbeddedResource Remove="Areas\Manage\Models\**" />
+    <None Remove="Areas\Manage\Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="toastr" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Fundamental.Infrastructure\Fundamental.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Fundamental.Persistence\Fundamental.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\brand-icons.svg" />
+    <None Include="wwwroot\fonts\brand-icons.woff2" />
+    <None Include="wwwroot\fonts\facebook-icon.svg" />
+    <None Include="wwwroot\fonts\icomoon.svg" />
+    <None Include="wwwroot\fonts\icons.svg" />
+    <None Include="wwwroot\fonts\icons.woff2" />
+    <None Include="wwwroot\fonts\instagram-icon.svg" />
+    <None Include="wwwroot\fonts\intro-black.woff2" />
+    <None Include="wwwroot\fonts\intro-bold.woff2" />
+    <None Include="wwwroot\fonts\intro-book.woff2" />
+    <None Include="wwwroot\fonts\intro-light.woff2" />
+    <None Include="wwwroot\fonts\intro-regular.woff2" />
+    <None Include="wwwroot\fonts\intro-thin.woff2" />
+    <None Include="wwwroot\fonts\logo-colored.svg" />
+    <None Include="wwwroot\fonts\logo-white.svg" />
+    <None Include="wwwroot\fonts\montserrat-black-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-black.woff2" />
+    <None Include="wwwroot\fonts\montserrat-bold-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-bold.woff2" />
+    <None Include="wwwroot\fonts\montserrat-extrabold-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-extrabold.woff2" />
+    <None Include="wwwroot\fonts\montserrat-extralight-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-extralight.woff2" />
+    <None Include="wwwroot\fonts\montserrat-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-light-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-light.woff2" />
+    <None Include="wwwroot\fonts\montserrat-medium-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-medium.woff2" />
+    <None Include="wwwroot\fonts\montserrat-regular.woff2" />
+    <None Include="wwwroot\fonts\montserrat-semibold-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-semibold.woff2" />
+    <None Include="wwwroot\fonts\montserrat-thin-italic.woff2" />
+    <None Include="wwwroot\fonts\montserrat-thin.woff2" />
+    <None Include="wwwroot\fonts\outline-icons.svg" />
+    <None Include="wwwroot\fonts\outline-icons.woff2" />
+    <None Include="wwwroot\fonts\play-icon-white.svg" />
+    <None Include="wwwroot\fonts\small-loader.svg" />
+    <None Include="wwwroot\fonts\twitter-icon.svg" />
+    <None Include="wwwroot\fonts\youtube-icon.svg" />
+    <None Include="wwwroot\js\cookieconsent.min.js" />
+    <None Include="wwwroot\js\floating-carousel.min.js" />
+    <None Include="wwwroot\js\geralt.min.js" />
+    <None Include="wwwroot\js\instafeed.min.js" />
+    <None Include="wwwroot\js\jquery-ui.min.js" />
+    <None Include="wwwroot\js\jquery.lazy.js" />
+    <None Include="wwwroot\js\jquery.mask.min.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\lightbox.js" />
+    <None Include="wwwroot\js\public.ajaxcart.js" />
+    <None Include="wwwroot\js\public.common.js" />
+    <None Include="wwwroot\js\scripts.min.js" />
+    <None Include="wwwroot\js\semantic.min.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\slick.min.js" />
+    <None Include="wwwroot\js\twitterFetcher_min.js" />
+    <None Include="wwwroot\manage\assets\js\config.js" />
+    <None Include="wwwroot\manage\assets\js\dashboards-analytics.js" />
+    <None Include="wwwroot\manage\assets\js\extended-ui-perfect-scrollbar.js" />
+    <None Include="wwwroot\manage\assets\js\form-basic-inputs.js" />
+    <None Include="wwwroot\manage\assets\js\main.js" />
+    <None Include="wwwroot\manage\assets\js\pages-account-settings-account.js" />
+    <None Include="wwwroot\manage\assets\js\ui-modals.js" />
+    <None Include="wwwroot\manage\assets\js\ui-popover.js" />
+    <None Include="wwwroot\manage\assets\js\ui-toasts.js" />
+    <None Include="wwwroot\manage\assets\vendor\fonts\boxicons\boxicons.svg" />
+    <None Include="wwwroot\manage\assets\vendor\fonts\boxicons\boxicons.woff2" />
+    <None Include="wwwroot\manage\assets\vendor\js\bootstrap.js" />
+    <None Include="wwwroot\manage\assets\vendor\js\helpers.js" />
+    <None Include="wwwroot\manage\assets\vendor\js\menu.js" />
+    <None Include="wwwroot\manage\assets\vendor\libs\apex-charts\apexcharts.js" />
+    <None Include="wwwroot\manage\assets\vendor\libs\highlight\highlight.js" />
+    <None Include="wwwroot\manage\assets\vendor\libs\jquery\jquery.js" />
+    <None Include="wwwroot\manage\assets\vendor\libs\masonry\masonry.js" />
+    <None Include="wwwroot\manage\assets\vendor\libs\perfect-scrollbar\perfect-scrollbar.js" />
+    <None Include="wwwroot\manage\assets\vendor\libs\popper\popper.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\categories\" />
+    <Folder Include="wwwroot\uploads\subcategories\" />
+    <Folder Include="wwwroot\uploads\sliders\" />
+    <Folder Include="wwwroot\uploads\settings\" />
+  </ItemGroup>
+
+</Project>
